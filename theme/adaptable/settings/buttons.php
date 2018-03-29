@@ -44,7 +44,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('buttoncolor', 'theme_adaptable');
     $description = get_string('buttoncolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 

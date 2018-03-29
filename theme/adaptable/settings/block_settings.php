@@ -219,7 +219,7 @@ defined('MOODLE_INTERNAL') || die;
     $name = 'theme_adaptable/fontblockheadersize';
     $title = get_string('fontblockheadersize', 'theme_adaptable');
     $description = get_string('fontblockheadersizedesc', 'theme_adaptable');
-    $default = '28px';
+    $default = '20px';
     $choices = $standardfontsize;
     $setting = new admin_setting_configselect($name, $title, $description, $default, $choices);
     $setting->set_updatedcallback('theme_reset_all_caches');
@@ -238,7 +238,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('fontblockheadercolor', 'theme_adaptable');
     $description = get_string('fontblockheadercolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#0066ad', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 

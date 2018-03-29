@@ -42,7 +42,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('maincolor', 'theme_adaptable');
     $description = get_string('maincolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -68,7 +68,7 @@ defined('MOODLE_INTERNAL') || die;
     $name = 'theme_adaptable/linkcolor';
     $title = get_string('linkcolor', 'theme_adaptable');
     $description = get_string('linkcolordesc', 'theme_adaptable');
-    $default = '#009688';
+    $default = '#003c7d';
     $previewconfig = null;
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $temp->add($setting);
@@ -77,7 +77,7 @@ defined('MOODLE_INTERNAL') || die;
     $name = 'theme_adaptable/linkhover';
     $title = get_string('linkhover', 'theme_adaptable');
     $description = get_string('linkhoverdesc', 'theme_adaptable');
-    $default = '#009688';
+    $default = '#014164';
     $previewconfig = null;
     $setting = new admin_setting_configcolourpicker($name, $title, $description, $default, $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
@@ -114,7 +114,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('loadingcolor', 'theme_adaptable');
     $description = get_string('loadingcolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#f44336', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#5393df', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -141,7 +141,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('headerbkcolor', 'theme_adaptable');
     $description = get_string('headerbkcolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#00796B', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#001b39', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -159,7 +159,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('headerbkcolor2', 'theme_adaptable');
     $description = get_string('headerbkcolor2desc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -211,7 +211,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('menuhovercolor', 'theme_adaptable');
     $description = get_string('menuhovercolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#b2dfdb', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#5393df', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -220,7 +220,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('menubordercolor', 'theme_adaptable');
     $description = get_string('menubordercolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#80cbc4', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#5393df', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -284,7 +284,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('rendereroverlaycolor', 'theme_adaptable');
     $description = get_string('rendereroverlaycolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -300,7 +300,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('tilesbordercolor', 'theme_adaptable');
     $description = get_string('tilesbordercolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -308,7 +308,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('covbkcolor', 'theme_adaptable');
     $description = get_string('covbkcolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#009688', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
@@ -419,7 +419,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('footerbkcolor', 'theme_adaptable');
     $description = get_string('footerbkcolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#424242', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#014164', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
