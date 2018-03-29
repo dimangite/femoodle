@@ -1,0 +1,10 @@
+[03-Nov-2017 13:27:13 Asia/Phnom_Penh] Default exception handler: You do not have the permission to view discussions in this forum Debug: 
+Error code: noviewdiscussionspermission
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 223 of /mod/forum/discuss.php: call to print_error()
+
+[07-Nov-2017 22:05:18 Asia/Phnom_Penh] Default exception handler: You do not have the permission to view discussions in this forum Debug: 
+Error code: noviewdiscussionspermission
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 223 of /mod/forum/discuss.php: call to print_error()
+

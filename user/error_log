@@ -1,0 +1,10 @@
+[07-Nov-2017 18:37:50 Asia/Phnom_Penh] Default exception handler: Sorry, but you do not currently have permissions to do that (View participants) Debug: 
+Error code: nopermissions
+* line 788 of /lib/accesslib.php: required_capability_exception thrown
+* line 83 of /user/index.php: call to require_capability()
+
+[07-Nov-2017 18:38:16 Asia/Phnom_Penh] Default exception handler: Sorry, but you do not currently have permissions to do that (View participants) Debug: 
+Error code: nopermissions
+* line 788 of /lib/accesslib.php: required_capability_exception thrown
+* line 83 of /user/index.php: call to require_capability()
+

@@ -1,0 +1,6 @@
+[30-Oct-2017 08:50:46 Asia/Phnom_Penh] Default exception handler: Invalid course module ID Debug: 
+Error code: invalidcoursemodule
+* line 230 of /lib/modinfolib.php: moodle_exception thrown
+* line 2565 of /lib/moodlelib.php: call to course_modinfo->get_cm()
+* line 42 of /mod/lesson/view.php: call to require_login()
+

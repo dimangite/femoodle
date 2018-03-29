@@ -1,0 +1,87 @@
+[02-Nov-2017 14:55:23 Asia/Phnom_Penh] Default exception handler: Error reading from database Debug: Lost connection to MySQL server during query
+(SELECT ctx.path, rc.roleid, rc.capability, rc.permission
+                     FROM mdl_role_capabilities rc
+                     JOIN mdl_context ctx
+                          ON (ctx.id = rc.contextid)
+                     JOIN mdl_context pctx
+                          ON (pctx.id = ?
+                              AND (ctx.id = pctx.id
+                                   OR ctx.path LIKE CONCAT(pctx.path, '/%')
+                                   OR pctx.path LIKE CONCAT(ctx.path, '/%')))
+                LEFT JOIN mdl_block_instances bi
+                          ON (ctx.contextlevel = 80 AND bi.id = ctx.instanceid)
+                LEFT JOIN mdl_context bpctx
+                          ON (bpctx.id = bi.parentcontextid)
+                    WHERE rc.roleid = ?
+                          AND (ctx.contextlevel <= 50 OR bpctx.contextlevel < 50)
+                   )
+UNION
+(SELECT ctx.path, rc.roleid, rc.capability, rc.permission
+                     FROM mdl_role_capabilities rc
+                     JOIN mdl_context ctx
+                          ON (ctx.id = rc.contextid)
+                     JOIN mdl_context pctx
+                          ON (pctx.id = ?
+                              AND (ctx.id = pctx.id
+                                   OR ctx.path LIKE CONCAT(pctx.path, '/%')
+                                   OR pctx.path LIKE CONCAT(ctx.path, '/%')))
+                LEFT JOIN mdl_block_instances bi
+                          ON (ctx.contextlevel = 80 AND bi.id = ctx.instanceid)
+                LEFT JOIN mdl_context bpctx
+                          ON (bpctx.id = bi.parentcontextid)
+                    WHERE rc.roleid = ?
+                          AND (ctx.contextlevel <= 50 OR bpctx.contextlevel < 50)
+                   )
+UNION
+(SELECT ctx.path, rc.roleid, rc.capability, rc.permission
+                     FROM mdl_role_capabilities rc
+                     JOIN mdl_context ctx
+                          ON (ctx.id = rc.contextid)
+                     JOIN mdl_context pctx
+                          ON (pctx.id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                              AND (ctx.id = pctx.id
+                                   OR ctx.path LIKE CONCAT(pctx.path, '/%')
+                                   OR pctx.path LIKE CONCAT(ctx.path, '/%')))
+                LEFT JOIN mdl_block_instances bi
+                          ON (ctx.contextlevel = 80 AND bi.id = ctx.instanceid)
+                LEFT JOIN mdl_context bpctx
+                          ON (bpctx.id = bi.parentcontextid)
+                    WHERE rc.roleid = ?
+                          AND (ctx.contextlevel <= 50 OR bpctx.contextlevel < 50)
+                   )ORDER BY capability
+[array (
+  0 => 1,
+  1 => 7,
+  2 => 2,
+  3 => 8,
+  4 => '178',
+  5 => '250',
+  6 => '293',
+  7 => '345',
+  8 => '371',
+  9 => '385',
+  10 => '502',
+  11 => '522',
+  12 => '550',
+  13 => '606',
+  14 => '644',
+  15 => '664',
+  16 => '679',
+  17 => '1707',
+  18 => '1713',
+  19 => 5,
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1137 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 892 of /lib/accesslib.php: call to mysqli_native_moodle_database->get_recordset_sql()
+* line 1141 of /lib/accesslib.php: call to get_user_access_sitewide()
+* line 1217 of /lib/accesslib.php: call to get_user_accessdata()
+* line 480 of /lib/accesslib.php: call to load_all_capabilities()
+* line 48 of /my/index.php: call to has_capability()
+
+[06-Nov-2017 13:10:54 Asia/Phnom_Penh] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2611 of /lib/moodlelib.php: require_login_exception thrown
+* line 46 of /my/index.php: call to require_login()
+

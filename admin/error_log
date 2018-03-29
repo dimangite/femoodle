@@ -1,0 +1,46 @@
+[27-Oct-2017 19:45:31 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 93 of /admin/index.php: call to require()
+
+[27-Oct-2017 19:50:03 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 51 of /admin/cron.php: call to require()
+
+[28-Oct-2017 08:15:56 Asia/Phnom_Penh] Default exception handler: core_plugin/err_response_empty Debug: 
+Error code: err_response_empty
+$a contents: 
+* line 262 of /lib/classes/update/checker.php: core\update\checker_exception thrown
+* line 125 of /lib/classes/update/checker.php: call to core\update\checker->validate_response()
+* line 212 of /admin/plugins.php: call to core\update\checker->fetch()
+
+[30-Oct-2017 13:33:09 Asia/Phnom_Penh] Default exception handler: Cannot find component Debug: 
+Error code: cannotfindcomponent
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 62 of /admin/environment.php: call to print_error()
+
+[31-Oct-2017 04:24:06 Asia/Phnom_Penh] PHP Notice:  Undefined offset: 1 in /home1/feruppco/public_html/moodle/admin/tool/langimport/classes/controller.php on line 151
+[02-Nov-2017 04:22:05 Asia/Phnom_Penh] PHP Notice:  Undefined offset: 1 in /home1/feruppco/public_html/moodle/admin/tool/langimport/classes/controller.php on line 151
+[02-Nov-2017 08:21:54 Asia/Phnom_Penh] Default exception handler: core_plugin/err_response_empty Debug: 
+Error code: err_response_empty
+$a contents: 
+* line 262 of /lib/classes/update/checker.php: core\update\checker_exception thrown
+* line 125 of /lib/classes/update/checker.php: call to core\update\checker->validate_response()
+* line 762 of /admin/index.php: call to core\update\checker->fetch()
+
+[02-Nov-2017 08:22:20 Asia/Phnom_Penh] Default exception handler: core_plugin/err_response_empty Debug: 
+Error code: err_response_empty
+$a contents: 
+* line 262 of /lib/classes/update/checker.php: core\update\checker_exception thrown
+* line 125 of /lib/classes/update/checker.php: call to core\update\checker->validate_response()
+* line 762 of /admin/index.php: call to core\update\checker->fetch()
+
+[04-Nov-2017 04:30:08 Asia/Phnom_Penh] PHP Notice:  Undefined offset: 1 in /home1/feruppco/public_html/moodle/admin/tool/langimport/classes/controller.php on line 151
+[05-Nov-2017 04:30:06 Asia/Phnom_Penh] PHP Notice:  Undefined offset: 1 in /home1/feruppco/public_html/moodle/admin/tool/langimport/classes/controller.php on line 151
+[07-Nov-2017 04:31:06 Asia/Phnom_Penh] PHP Notice:  Undefined offset: 1 in /home1/feruppco/public_html/moodle/admin/tool/langimport/classes/controller.php on line 151
+[08-Nov-2017 04:31:13 Asia/Phnom_Penh] PHP Notice:  Undefined offset: 1 in /home1/feruppco/public_html/moodle/admin/tool/langimport/classes/controller.php on line 151

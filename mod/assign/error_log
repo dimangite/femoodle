@@ -1,0 +1,96 @@
+[29-Oct-2017 22:46:31 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/index.php: call to required_param()
+
+[29-Oct-2017 23:55:19 Asia/Phnom_Penh] Default exception handler: error/nopermission Debug: 
+Error code: nopermission
+$a contents: 
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 4356 of /mod/assign/locallib.php: call to print_error()
+* line 584 of /mod/assign/locallib.php: call to assign->view_edit_submission_page()
+* line 55 of /mod/assign/view.php: call to assign->view()
+
+[30-Oct-2017 09:38:41 Asia/Phnom_Penh] Default exception handler: error/nopermission Debug: 
+Error code: nopermission
+$a contents: 
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 4356 of /mod/assign/locallib.php: call to print_error()
+* line 584 of /mod/assign/locallib.php: call to assign->view_edit_submission_page()
+* line 55 of /mod/assign/view.php: call to assign->view()
+
+[01-Nov-2017 08:49:08 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[01-Nov-2017 22:29:07 Asia/Phnom_Penh] Default exception handler: error/nopermission Debug: 
+Error code: nopermission
+$a contents: 
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 4356 of /mod/assign/locallib.php: call to print_error()
+* line 584 of /mod/assign/locallib.php: call to assign->view_edit_submission_page()
+* line 55 of /mod/assign/view.php: call to assign->view()
+
+[02-Nov-2017 15:19:02 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[03-Nov-2017 12:41:15 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[03-Nov-2017 12:42:44 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[04-Nov-2017 14:09:30 Asia/Phnom_Penh] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2611 of /lib/moodlelib.php: require_login_exception thrown
+* line 32 of /mod/assign/view.php: call to require_login()
+
+[04-Nov-2017 14:09:30 Asia/Phnom_Penh] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2611 of /lib/moodlelib.php: require_login_exception thrown
+* line 32 of /mod/assign/view.php: call to require_login()
+
+[07-Nov-2017 14:20:21 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[07-Nov-2017 14:22:52 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[07-Nov-2017 15:06:27 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+
+[07-Nov-2017 22:17:16 Asia/Phnom_Penh] Default exception handler: error/nopermission Debug: 
+Error code: nopermission
+$a contents: 
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 4356 of /mod/assign/locallib.php: call to print_error()
+* line 584 of /mod/assign/locallib.php: call to assign->view_edit_submission_page()
+* line 55 of /mod/assign/view.php: call to assign->view()
+
+[08-Nov-2017 22:53:11 Asia/Phnom_Penh] Default exception handler: A required parameter (id) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 28 of /mod/assign/view.php: call to required_param()
+

@@ -1,0 +1,85 @@
+[27-Oct-2017 19:35:20 America/Chicago] Resetting core_component cache after core upgrade to version 2017051502.11
+[27-Oct-2017 19:46:22 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:46:42 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:47:58 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:48:32 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:48:35 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:48:38 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:48:40 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:49:10 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:49:13 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 19:49:48 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /index.php: call to require_once()
+
+[27-Oct-2017 20:11:34 America/Chicago] Default exception handler: Site is being upgraded, please retry later. Debug: 
+Error code: upgraderunning
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 679 of /lib/setup.php: call to print_error()
+* line 27 of /config.php: call to require_once()
+* line 30 of /pluginfile.php: call to require_once()
+
+[08-Nov-2017 19:16:03 Asia/Phnom_Penh] Default exception handler: Sorry, the requested file could not be found Debug: 
+Error code: filenotfound
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 1825 of /lib/filelib.php: call to print_error()
+* line 4743 of /lib/filelib.php: call to send_file_not_found()
+* line 40 of /pluginfile.php: call to file_pluginfile()
+

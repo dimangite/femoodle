@@ -1,0 +1,41 @@
+[30-Oct-2017 11:24:53 Asia/Phnom_Penh] Debugging: Error calling message processor email in 
+* line 144 of /lib/classes/message/manager.php: call to debugging()
+* line 104 of /lib/classes/message/manager.php: call to core\message\manager::send_message_to_processors()
+* line 264 of /lib/messagelib.php: call to core\message\manager::send_message()
+* line 722 of /message/lib.php: call to message_send()
+* line 150 of /message/externallib.php: call to message_post_message()
+* line 228 of /lib/externallib.php: call to core_message_external::send_instant_messages()
+* line 59 of /lib/ajax/service.php: call to external_api::call_external_function()
+
+[01-Nov-2017 15:50:26 Asia/Phnom_Penh] Debugging: Error calling message processor email in 
+* line 144 of /lib/classes/message/manager.php: call to debugging()
+* line 104 of /lib/classes/message/manager.php: call to core\message\manager::send_message_to_processors()
+* line 264 of /lib/messagelib.php: call to core\message\manager::send_message()
+* line 722 of /message/lib.php: call to message_send()
+* line 150 of /message/externallib.php: call to message_post_message()
+* line 228 of /lib/externallib.php: call to core_message_external::send_instant_messages()
+* line 59 of /lib/ajax/service.php: call to external_api::call_external_function()
+
+[02-Nov-2017 22:27:23 Asia/Phnom_Penh] Debugging: Error calling message processor email in 
+* line 144 of /lib/classes/message/manager.php: call to debugging()
+* line 104 of /lib/classes/message/manager.php: call to core\message\manager::send_message_to_processors()
+* line 264 of /lib/messagelib.php: call to core\message\manager::send_message()
+* line 722 of /message/lib.php: call to message_send()
+* line 150 of /message/externallib.php: call to message_post_message()
+* line 228 of /lib/externallib.php: call to core_message_external::send_instant_messages()
+* line 59 of /lib/ajax/service.php: call to external_api::call_external_function()
+
+[08-Nov-2017 17:15:11 Asia/Phnom_Penh] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2611 of /lib/moodlelib.php: require_login_exception thrown
+* line 32 of /lib/ajax/getsiteadminbranch.php: call to require_login()
+
+[08-Nov-2017 17:15:11 Asia/Phnom_Penh] Debugging: Coding problem: $PAGE->context was not set. You may have forgotten to call require_login() or $PAGE->set_context(). The page may not display correctly as a result in 
+* line 493 of /lib/pagelib.php: call to debugging()
+* line 1587 of /lib/pagelib.php: call to moodle_page->magic_get_context()
+* line 677 of /lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 864 of /lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 390 of /lib/setuplib.php: call to moodle_page->get_renderer()
+* line ? of unknownfile: call to default_exception_handler()
+
+[08-Nov-2017 23:22:03 Asia/Phnom_Penh] Cannot find session record 1ho2nar66ra8d38qaju8psgt10 for user 322, creating new session.

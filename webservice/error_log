@@ -1,0 +1,40 @@
+[06-Nov-2017 21:31:37 Asia/Phnom_Penh] Default exception handler: A required parameter (token) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 45 of /webservice/pluginfile.php: call to required_param()
+
+[08-Nov-2017 16:35:20 Asia/Phnom_Penh] Default exception handler: Sorry, the requested file could not be found Debug: 
+Error code: filenotfound
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 1825 of /lib/filelib.php: call to print_error()
+* line 4743 of /lib/filelib.php: call to send_file_not_found()
+* line 63 of /webservice/pluginfile.php: call to file_pluginfile()
+
+[08-Nov-2017 16:36:14 Asia/Phnom_Penh] Default exception handler: Sorry, the requested file could not be found Debug: 
+Error code: filenotfound
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 1825 of /lib/filelib.php: call to print_error()
+* line 4743 of /lib/filelib.php: call to send_file_not_found()
+* line 63 of /webservice/pluginfile.php: call to file_pluginfile()
+
+[08-Nov-2017 16:37:28 Asia/Phnom_Penh] Default exception handler: Sorry, the requested file could not be found Debug: 
+Error code: filenotfound
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 1825 of /lib/filelib.php: call to print_error()
+* line 4743 of /lib/filelib.php: call to send_file_not_found()
+* line 63 of /webservice/pluginfile.php: call to file_pluginfile()
+
+[08-Nov-2017 16:39:28 Asia/Phnom_Penh] Default exception handler: Sorry, the requested file could not be found Debug: 
+Error code: filenotfound
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 1825 of /lib/filelib.php: call to print_error()
+* line 4743 of /lib/filelib.php: call to send_file_not_found()
+* line 63 of /webservice/pluginfile.php: call to file_pluginfile()
+
+[08-Nov-2017 23:13:32 Asia/Phnom_Penh] Default exception handler: A required parameter (token) was missing Debug: 
+Error code: missingparam
+* line 503 of /lib/setuplib.php: moodle_exception thrown
+* line 568 of /lib/moodlelib.php: call to print_error()
+* line 45 of /webservice/pluginfile.php: call to required_param()
+
