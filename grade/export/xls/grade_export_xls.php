@@ -55,29 +55,54 @@ class grade_export_xls extends grade_export {
         // Adding the worksheet
         $myxls = $workbook->add_worksheet($strgrades);
 
+        // add Header of grading
+
+        // add format of cell
+        $header_str = ["ព្រះរាជាណាចក្រកម្ពុជា", "ជាតិ        សាសនា         ព្រះមហាក្សត្រ","ក្រសួងអប់រំ យុវជន និងកីឡា" , "សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ", "តារាងសម្រង់វត្តមាន និង​វាយតំលៃបញ្ចប់ឆមាសទី២ របស់និស្សិត​ឆ្នាំទី៣( ឆ្នាំសិក្សា ២០១៧ - ២០១៨)", "មហាវិទ្យាល៍យវិស្វកម្មឯកទេស   វិស្វកម្មបច្ចេវិទ្យាពត៍មាន (អាហារូបករណ៍)   Group A  មុខវិជ្ជា:", ""];
+        $formatCenter = $workbook->add_format();
+        $formatCenter->set_align('center');
+        $formatCenter->set_bottom(4);
+        $num = 0;
+        foreach($header_str as $item){
+            $myxls->set_row($num, 17, $formatCenter);
+            $myxls->merge_cells($num, 0, $num, 10);
+            $myxls->write_string($num, 0, $item);
+            $num++;
+        }
+
+        $startRow = 7;
         // Print names of all the fields
         $profilefields = grade_helper::get_user_profile_fields($this->course->id, $this->usercustomfields);
-        foreach ($profilefields as $id => $field) {
-            $myxls->write_string(0, $id, $field->fullname);
+//        foreach ($profilefields as $id => $field) {
+//            $myxls->write_string($startRow, $id, $field->fullname);
+//        }
+
+        //TODO generate header
+        $header1_str = ["ល រ", "គោត្តនាម នាម", "ភេទ", "វត្តមាន និងអវត្តមាន", "វាយតម្លៃក្នុងថ្នាក់​ ៤០%=៤/១០", "ពិន្ទុកប្រឡងឆមាស", "ពិន្ទុកសរុបរួម", "ផ្សេងៗ"];
+        $col = 0;
+        foreach ($header1_str as $item){
+            $myxls->write_string($startRow, $col, $item);
+            $col++;
         }
-        $pos = count($profilefields);
-        if (!$this->onlyactive) {
-            $myxls->write_string(0, $pos++, get_string("suspended"));
-        }
-        foreach ($this->columns as $grade_item) {
-            foreach ($this->displaytype as $gradedisplayname => $gradedisplayconst) {
-                $myxls->write_string(0, $pos++, $this->format_column_name($grade_item, false, $gradedisplayname));
-            }
-            // Add a column_feedback column
-            if ($this->export_feedback) {
-                $myxls->write_string(0, $pos++, $this->format_column_name($grade_item, true));
-            }
-        }
-        // Last downloaded column header.
-        $myxls->write_string(0, $pos++, get_string('timeexported', 'gradeexport_xls'));
+//
+//        $pos = count($profilefields);
+//        if (!$this->onlyactive) {
+//            $myxls->write_string($startRow, $pos++, get_string("suspended"));
+//        }
+//        foreach ($this->columns as $grade_item) {
+//            foreach ($this->displaytype as $gradedisplayname => $gradedisplayconst) {
+//                $myxls->write_string($startRow, $pos++, $this->format_column_name($grade_item, false, $gradedisplayname));
+//            }
+//            // Add a column_feedback column
+//            if ($this->export_feedback) {
+//                $myxls->write_string($startRow, $pos++, $this->format_column_name($grade_item, true));
+//            }
+//        }
+//        // Last downloaded column header.
+//        $myxls->write_string($startRow, $pos++, get_string('timeexported', 'gradeexport_xls'));
 
         // Print all the lines of data.
-        $i = 0;
+        $i = $startRow;
         $geub = new grade_export_update_buffer();
         $gui = new graded_users_iterator($this->course, $this->columns, $this->groupid);
         $gui->require_active_enrolment($this->onlyactive);
@@ -115,6 +140,18 @@ class grade_export_xls extends grade_export {
             }
             // Time exported.
             $myxls->write_string($i, $j++, time());
+        }
+
+        $footerStr = ["កំណត់ចំណាំ:សាស្រ្តាចារ្យបង្រៀនទាំងអស់ត្រូវប្រគល់បញ្ជីវត្តមានដល់ការិយាល័យសិក្សាជារៀងរាល់ចុងខែ ។                                            រាជធានីភ្នំពេញ ថ្ងៃទី",
+            "រាជធានីភ្នំពេញ ថ្ងៃទី                                                                                                      ​​​​​​​​​​​​​​​​​​​​​​​​​​                           សាស្រ្តាចារ្យ",
+            "ប្រធានការិយាល័យសិក្សា",
+            "វេង ឆាង"
+            ];
+        $row = $i+1;
+        foreach ($footerStr as $item){
+            $myxls->set_row($row, 17, $formatCenter);
+            $myxls->merge_cells($row, 0, $row, 10);
+            $myxls->write_string($row, 0, $item);
         }
         $gui->close();
         $geub->close();
