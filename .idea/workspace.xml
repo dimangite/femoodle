@@ -4,6 +4,7 @@
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" afterPath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
+      <change beforePath="$PROJECT_DIR$/grade/lib.php" afterPath="$PROJECT_DIR$/grade/lib.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,23 +16,84 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="moodle@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="moodle@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="moodle@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="moodle: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="511">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="excellib.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
+      <file leaf-file-name="lib.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grade/lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="779" column="9" lean-forward="true" selection-start-line="779" selection-start-column="9" selection-end-line="779" selection-end-column="9" />
+            <state relative-caret-position="1304">
+              <caret line="3280" column="0" lean-forward="true" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
+              <folding>
+                <marker date="1524194570137" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
+                <marker date="1524194570137" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
+                <marker date="1524194570137" expanded="true" signature="119482:119723" ph="SELECT f.* F... " />
+                <marker date="1524194570137" expanded="true" signature="119482:119847" ph="SELECT f.* F... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moodle_database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dml/moodle_database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11085">
+              <caret line="752" column="20" lean-forward="false" selection-start-line="752" selection-start-column="20" selection-end-line="752" selection-end-column="20" />
+              <folding>
+                <marker date="1509101310000" expanded="true" signature="48965:48997" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="55031:55076" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="63023:63060" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="67358:67395" ph="SELECT ${$re... " />
+                <marker date="1509101310000" expanded="true" signature="69342:69379" ph="SELECT ${$re... " />
+                <marker date="1509101310000" expanded="true" signature="77490:77530" ph="SELECT ${$co... " />
+                <marker date="1509101310000" expanded="true" signature="79796:79829" ph="SELECT 'x' F... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/install.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8145">
+              <caret line="556" column="18" lean-forward="false" selection-start-line="556" selection-start-column="18" selection-end-line="556" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -40,38 +102,8 @@
       <file leaf-file-name="export.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/export.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="690">
               <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dump.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/xls/dump.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="export.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/checklist/tests/behat/export.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradeexport_checklist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/checklist/lang/en/gradeexport_checklist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +122,8 @@
       <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="238" column="9" lean-forward="false" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
+            <state relative-caret-position="141">
+              <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="51" />
               <folding>
                 <marker date="1509101310000" expanded="true" signature="25523:25571" ph="UPDATE {grad... " />
               </folding>
@@ -109,16 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/xls/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -126,6 +148,9 @@
       <find>maincolor</find>
       <find>headerbkcolor2</find>
       <find>fontblockheadercolor</find>
+      <find>current</find>
+      <find>$current</find>
+      <find>current()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,6 +164,7 @@
         <option value="$PROJECT_DIR$/theme/adaptable/settings/block_settings.php" />
         <option value="$PROJECT_DIR$/theme/adaptable/settings/buttons.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/grade/lib.php" />
         <option value="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
       </list>
     </option>
@@ -183,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -214,6 +239,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,6 +258,8 @@
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -274,14 +302,18 @@
       <workItem from="1522309499537" duration="1507000" />
       <workItem from="1522311077808" duration="1491000" />
       <workItem from="1522381818735" duration="324000" />
-      <workItem from="1522387249786" duration="7296000" />
+      <workItem from="1522387249786" duration="7477000" />
+      <workItem from="1522981185521" duration="3380000" />
+      <workItem from="1523259162447" duration="5162000" />
+      <workItem from="1524102492986" duration="4754000" />
+      <workItem from="1524187686900" duration="4514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11521000" />
+    <option name="totallyTimeSpent" value="29512000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -294,16 +326,16 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23104435" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679544" sideWeight="0.50423217" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -348,43 +380,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/fonts/fontawesome-webfont.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/styles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1778">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/styles_debug.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/upgrade.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/jquery/adaptable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/adaptable/jquery/plugins.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -620,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,14 +649,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/40cc86af-aee3-4ec2-b4b6-3d92431fc539/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/checklist/tests/behat/export.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1078">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/export/checklist/db/access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -668,14 +678,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/checklist/db/access.php">
+    <entry file="file://$PROJECT_DIR$/grade/export/xls/export.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="690">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -688,37 +697,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/accesslib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="4049" column="15" lean-forward="false" selection-start-line="4049" selection-start-column="15" selection-end-line="4049" selection-end-column="15" />
+          <folding>
+            <marker date="1509101310000" expanded="true" signature="10609:11233" ph="SELECT COALE... " />
+            <marker date="1509101310000" expanded="true" signature="24700:24818" ph="SELECT 1 FRO... userid" />
+            <marker date="1509101310000" expanded="true" signature="31315:31836" ph="SELECT ctx.p... " />
+            <marker date="1509101310000" expanded="true" signature="35857:36082" ph="SELECT ra.*,... " />
+            <marker date="1509101310000" expanded="true" signature="37561:37874" ph="SELECT ctx.p... " />
+            <marker date="1509101310000" expanded="true" signature="39780:40054" ph="SELECT ctx.p... " />
+            <marker date="1509101310000" expanded="true" signature="47811:47952" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="58633:58932" ph="SELECT r.* F... " />
+            <marker date="1509101310000" expanded="true" signature="91619:91877" ph="SELECT rc.* " />
+            <marker date="1509101310000" expanded="true" signature="99412:99790" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="100350:100690" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="102246:102667" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="104732:104932" ph="SELECT r.*, " />
+            <marker date="1509101310000" expanded="true" signature="106458:106738" ph="SELECT ra.*,... " />
+            <marker date="1509101310000" expanded="true" signature="112148:112509" ph="SELECT r.id,... " />
+            <marker date="1509101310000" expanded="true" signature="114682:115056" ph="SELECT r.id,... roleid" />
+            <marker date="1509101310000" expanded="true" signature="114755:114875" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="116854:117083" ph="SELECT ro.id... " />
+            <marker date="1509101310000" expanded="true" signature="117162:117762" ph="SELECT ro.id... " />
+            <marker date="1509101310000" expanded="true" signature="119046:119407" ph="SELECT r.id,... " />
+            <marker date="1509101310000" expanded="true" signature="124985:125211" ph="SELECT rc.id... " />
+            <marker date="1509101310000" expanded="true" signature="131347:131583" ph="SELECT useri... contextid" />
+            <marker date="1509101310000" expanded="true" signature="132142:132555" ph="SELECT id AS... id" />
+            <marker date="1509101310000" expanded="true" signature="132260:132554" ph="SELECT useri... contextid" />
+            <marker date="1509101310000" expanded="true" signature="132617:133253" ph="SELECT useri... contextid" />
+            <marker date="1509101310000" expanded="true" signature="132918:133195" ph="SELECT useri... contextid" />
+            <marker date="1509101310000" expanded="true" signature="133875:133975" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="135788:136069" ph="SELECT ra.us... " />
+            <marker date="1509101310000" expanded="true" signature="143046:143527" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="144598:144833" ph="SELECT COUNT... " />
+            <marker date="1509101310000" expanded="true" signature="147237:147475" ph="SELECT c.id " />
+            <marker date="1509101310000" expanded="true" signature="148756:148916" ph="SELECT r.* F... " />
+            <marker date="1509101310000" expanded="true" signature="151780:151941" ph="SELECT r.* F... " />
+            <marker date="1509101310000" expanded="true" signature="152271:152408" ph="SELECT * FRO... contextid" />
+            <marker date="1509101310000" expanded="true" signature="152708:152868" ph="SELECT r.* F... " />
+            <marker date="1509101310000" expanded="true" signature="153193:153329" ph="SELECT * FRO... contextid" />
+            <marker date="1509101310000" expanded="true" signature="154097:154246" ph="SELECT COUNT... " />
+            <marker date="1509101310000" expanded="true" signature="165542:165681" ph="SELECT * FRO... roleid" />
+            <marker date="1509101310000" expanded="true" signature="166541:166803" ph="SELECT rc.id... " />
+            <marker date="1509101310000" expanded="true" signature="170407:170672" ph="SELECT ctx.i... " />
+            <marker date="1509101310000" expanded="true" signature="171637:171898" ph="SELECT ctx.i... " />
+            <marker date="1509101310000" expanded="true" signature="184281:184486" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="184559:184999" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="185098:185331" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="185410:185705" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="185472:185527" ph="SELECT path id" />
+            <marker date="1509101310000" expanded="true" signature="185575:185631" ph="SELECT depth... id" />
+            <marker date="1509101310000" expanded="true" signature="185675:185704" ph="SELECT id FR... " />
+            <marker date="1509101310000" expanded="true" signature="187790:187901" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="188087:188272" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="194505:194593" ph="SELECT ctx.*... " />
+            <marker date="1509101310000" expanded="true" signature="210977:211023" ph="SELECT * FRO... " />
+            <marker date="1509101310000" expanded="true" signature="215270:215354" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="215837:215913" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="219461:219594" ph="SELECT * FRO... contextlevel" />
+            <marker date="1509101310000" expanded="true" signature="221576:221760" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="222415:222594" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="224947:225112" ph="SELECT * FRO... contextlevel" />
+            <marker date="1509101310000" expanded="true" signature="226969:227101" ph="SELECT ctx.*... " />
+            <marker date="1509101310000" expanded="true" signature="228376:228556" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="229353:229775" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="229577:229653" ph="SELECT 'x' F... " />
+            <marker date="1509101310000" expanded="true" signature="229927:229969" ph="SELECT MAX(d... " />
+            <marker date="1509101310000" expanded="true" signature="230043:230087" ph="INSERT INTO " />
+            <marker date="1509101310000" expanded="true" signature="230112:230609" ph="SELECT ctx.i... " />
+            <marker date="1509101310000" expanded="true" signature="233624:233767" ph="SELECT * FRO... contextlevel" />
+            <marker date="1509101310000" expanded="true" signature="236384:236553" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="237326:237742" ph="UPDATE {cont... " />
+            <marker date="1509101310000" expanded="true" signature="237553:237618" ph="SELECT 'x' F... " />
+            <marker date="1509101310000" expanded="true" signature="237842:237886" ph="INSERT INTO " />
+            <marker date="1509101310000" expanded="true" signature="237907:238371" ph="SELECT ctx.i... " />
+            <marker date="1509101310000" expanded="true" signature="240188:240421" ph="SELECT cm.*,... " />
+            <marker date="1509101310000" expanded="true" signature="241027:241266" ph="SELECT md.na... " />
+            <marker date="1509101310000" expanded="true" signature="243189:243394" ph="SELECT * FRO... contextlevel" />
+            <marker date="1509101310000" expanded="true" signature="245937:246114" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="246710:246754" ph="INSERT INTO " />
+            <marker date="1509101310000" expanded="true" signature="246775:247225" ph="SELECT ctx.i... " />
+            <marker date="1509101310000" expanded="true" signature="250483:250661" ph="SELECT * FRO... contextlevel" />
+            <marker date="1509101310000" expanded="true" signature="253438:253616" ph="SELECT c.* F... " />
+            <marker date="1509101310000" expanded="true" signature="254335:254379" ph="INSERT INTO " />
+            <marker date="1509101310000" expanded="true" signature="254400:254810" ph="SELECT ctx.i... " />
+            <marker date="1509101310000" expanded="true" signature="256578:257360" ph="SELECT ctx.*... " />
+            <marker date="1509101310000" expanded="true" signature="260239:260380" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="261660:261871" ph="SELECT rc.id... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10191">
+          <caret line="781" column="0" lean-forward="true" selection-start-line="781" selection-start-column="0" selection-end-line="781" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8145">
+          <caret line="556" column="18" lean-forward="false" selection-start-line="556" selection-start-column="18" selection-end-line="556" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dml/moodle_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11085">
+          <caret line="752" column="20" lean-forward="false" selection-start-line="752" selection-start-column="20" selection-end-line="752" selection-end-column="20" />
+          <folding>
+            <marker date="1509101310000" expanded="true" signature="48965:48997" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="55031:55076" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="63023:63060" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="67358:67395" ph="SELECT ${$re... " />
+            <marker date="1509101310000" expanded="true" signature="69342:69379" ph="SELECT ${$re... " />
+            <marker date="1509101310000" expanded="true" signature="77490:77530" ph="SELECT ${$co... " />
+            <marker date="1509101310000" expanded="true" signature="79796:79829" ph="SELECT 'x' F... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="238" column="9" lean-forward="false" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="9" />
+        <state relative-caret-position="141">
+          <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="51" />
           <folding>
             <marker date="1509101310000" expanded="true" signature="25523:25571" ph="UPDATE {grad... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/xls/export.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="779" column="9" lean-forward="true" selection-start-line="779" selection-start-column="9" selection-end-line="779" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="511">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1304">
+          <caret line="3280" column="0" lean-forward="true" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
+          <folding>
+            <marker date="1524194570137" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
+            <marker date="1524194570137" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
+            <marker date="1524194570137" expanded="true" signature="119482:119723" ph="SELECT f.* F... " />
+            <marker date="1524194570137" expanded="true" signature="119482:119847" ph="SELECT f.* F... " />
+          </folding>
         </state>
       </provider>
     </entry>

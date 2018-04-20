@@ -3238,7 +3238,11 @@ abstract class grade_helper {
                 $obj->customid  = 0;
                 $obj->shortname = $field;
                 $obj->fullname  = get_string($field);
-                $fields[] = $obj;
+
+                // skip for idnumber, institution, department, email
+                if (strcmp($field, "firstname") == 0 || strcmp($field, "lastname")== 0){
+                    $fields[] = $obj;;
+                }
             }
         }
 

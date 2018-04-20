@@ -72,13 +72,15 @@ class grade_export_xls extends grade_export {
 
         $startRow = 7;
         // Print names of all the fields
-        $profilefields = grade_helper::get_user_profile_fields($this->course->id, $this->usercustomfields);
+//        $profilefields = grade_helper::get_user_profile_fields($this->course->id, $this->usercustomfields);
+
+        $profilefields = grade_helper::get_user_profile_fields($this->course->id, true);
 //        foreach ($profilefields as $id => $field) {
 //            $myxls->write_string($startRow, $id, $field->fullname);
 //        }
 
-        //TODO generate header
-        $header1_str = ["ល រ", "គោត្តនាម នាម", "ភេទ", "វត្តមាន និងអវត្តមាន", "វាយតម្លៃក្នុងថ្នាក់​ ៤០%=៤/១០", "ពិន្ទុកប្រឡងឆមាស", "ពិន្ទុកសរុបរួម", "ផ្សេងៗ"];
+
+        $header1_str = ["ល.រ", "នាម","គោត្តនាម", "ភេទ", "វត្តមាន និងអវត្តមាន", "វាយតម្លៃក្នុងថ្នាក់​ ៤០%=៤/១០", "ពិន្ទុកប្រឡងឆមាស", "ពិន្ទុកសរុបរួម", "ផ្សេងៗ"];
         $col = 0;
         foreach ($header1_str as $item){
             $myxls->write_string($startRow, $col, $item);
@@ -103,6 +105,7 @@ class grade_export_xls extends grade_export {
 
         // Print all the lines of data.
         $i = $startRow;
+        $index = 1;
         $geub = new grade_export_update_buffer();
         $gui = new graded_users_iterator($this->course, $this->columns, $this->groupid);
         $gui->require_active_enrolment($this->onlyactive);
@@ -110,21 +113,33 @@ class grade_export_xls extends grade_export {
         $gui->init();
         while ($userdata = $gui->next_user()) {
             $i++;
+            // add index
+            $myxls->write_string($i, 0, $index++);
+
             $user = $userdata->user;
 
             foreach ($profilefields as $id => $field) {
                 $fieldvalue = grade_helper::get_user_field_value($user, $field);
-                $myxls->write_string($i, $id, $fieldvalue);
+                $myxls->write_string($i, $id+1, $fieldvalue);
             }
-            $j = count($profilefields);
+
+
+
+            $j = count($profilefields) +1;
             if (!$this->onlyactive) {
                 $issuspended = ($user->suspendedenrolment) ? get_string('yes') : '';
                 $myxls->write_string($i, $j++, $issuspended);
             }
+
+
+
+            // grade print
+
             foreach ($userdata->grades as $itemid => $grade) {
                 if ($export_tracking) {
                     $status = $geub->track($grade);
                 }
+                $tem = 0;
                 foreach ($this->displaytype as $gradedisplayconst) {
                     $gradestr = $this->format_grade($grade, $gradedisplayconst);
                     if (is_numeric($gradestr)) {
@@ -134,12 +149,14 @@ class grade_export_xls extends grade_export {
                     }
                 }
                 // writing feedback if requested
+                /*
                 if ($this->export_feedback) {
                     $myxls->write_string($i, $j++, $this->format_feedback($userdata->feedbacks[$itemid]));
                 }
+                */
             }
             // Time exported.
-            $myxls->write_string($i, $j++, time());
+//            $myxls->write_string($i, $j++, time());
         }
 
         $footerStr = ["កំណត់ចំណាំ:សាស្រ្តាចារ្យបង្រៀនទាំងអស់ត្រូវប្រគល់បញ្ជីវត្តមានដល់ការិយាល័យសិក្សាជារៀងរាល់ចុងខែ ។                                            រាជធានីភ្នំពេញ ថ្ងៃទី",
@@ -152,6 +169,7 @@ class grade_export_xls extends grade_export {
             $myxls->set_row($row, 17, $formatCenter);
             $myxls->merge_cells($row, 0, $row, 10);
             $myxls->write_string($row, 0, $item);
+            $row++;
         }
         $gui->close();
         $geub->close();
