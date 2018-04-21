@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/settings/grades.php" afterPath="$PROJECT_DIR$/admin/settings/grades.php" />
+      <change beforePath="$PROJECT_DIR$/grade/lib.php" afterPath="$PROJECT_DIR$/grade/lib.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +47,7 @@
       <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
+            <state relative-caret-position="111">
               <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
               <folding />
             </state>
@@ -57,8 +57,8 @@
       <file leaf-file-name="grades.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/settings/grades.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="121" column="43" lean-forward="true" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
+            <state relative-caret-position="-480">
+              <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -77,13 +77,13 @@
       <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49005">
-              <caret line="3280" column="0" lean-forward="false" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
+            <state relative-caret-position="313">
+              <caret line="3242" column="9" lean-forward="true" selection-start-line="3242" selection-start-column="9" selection-end-line="3242" selection-end-column="9" />
               <folding>
-                <marker date="1524194570137" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
-                <marker date="1524194570137" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
-                <marker date="1524194570137" expanded="true" signature="119482:119723" ph="SELECT f.* F... " />
-                <marker date="1524194570137" expanded="true" signature="119482:119847" ph="SELECT f.* F... " />
+                <marker date="1524286136249" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
+                <marker date="1524286136249" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
+                <marker date="1524286136249" expanded="true" signature="119300:119541" ph="SELECT f.* F... " />
+                <marker date="1524286136249" expanded="true" signature="119300:119665" ph="SELECT f.* F... " />
               </folding>
             </state>
           </provider>
@@ -182,9 +182,9 @@
         <option value="$PROJECT_DIR$/theme/adaptable/settings/block_settings.php" />
         <option value="$PROJECT_DIR$/theme/adaptable/settings/buttons.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/grade/lib.php" />
         <option value="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
         <option value="$PROJECT_DIR$/admin/settings/grades.php" />
+        <option value="$PROJECT_DIR$/grade/lib.php" />
       </list>
     </option>
   </component>
@@ -324,12 +324,12 @@
       <workItem from="1523259162447" duration="5162000" />
       <workItem from="1524102492986" duration="4754000" />
       <workItem from="1524187686900" duration="9440000" />
-      <workItem from="1524278560597" duration="4948000" />
+      <workItem from="1524278560597" duration="5236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39386000" />
+    <option name="totallyTimeSpent" value="39674000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -353,7 +353,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -835,19 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grade/lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49005">
-          <caret line="3280" column="0" lean-forward="false" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
-          <folding>
-            <marker date="1524194570137" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
-            <marker date="1524194570137" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
-            <marker date="1524194570137" expanded="true" signature="119482:119723" ph="SELECT f.* F... " />
-            <marker date="1524194570137" expanded="true" signature="119482:119847" ph="SELECT f.* F... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -858,16 +845,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
+        <state relative-caret-position="111">
           <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grade/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="3242" column="9" lean-forward="true" selection-start-line="3242" selection-start-column="9" selection-end-line="3242" selection-end-column="9" />
+          <folding>
+            <marker date="1524286136249" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
+            <marker date="1524286136249" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
+            <marker date="1524286136249" expanded="true" signature="119300:119541" ph="SELECT f.* F... " />
+            <marker date="1524286136249" expanded="true" signature="119300:119665" ph="SELECT f.* F... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/settings/grades.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="121" column="43" lean-forward="true" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
+        <state relative-caret-position="-480">
+          <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
           <folding />
         </state>
       </provider>
