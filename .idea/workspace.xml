@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" afterPath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
+      <change beforePath="$PROJECT_DIR$/admin/settings/grades.php" afterPath="$PROJECT_DIR$/admin/settings/grades.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,11 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+            <state relative-caret-position="-153">
+              <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grades.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/settings/grades.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="121" column="43" lean-forward="true" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -59,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="345" column="9" lean-forward="true" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
+              <caret line="345" column="9" lean-forward="false" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -175,6 +184,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/grade/lib.php" />
         <option value="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
+        <option value="$PROJECT_DIR$/admin/settings/grades.php" />
       </list>
     </option>
   </component>
@@ -229,20 +239,18 @@
             <path>
               <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
               <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="grade" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="settings" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
               <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="grade" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="export" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="grade" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="export" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="xls" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -316,12 +324,12 @@
       <workItem from="1523259162447" duration="5162000" />
       <workItem from="1524102492986" duration="4754000" />
       <workItem from="1524187686900" duration="9440000" />
-      <workItem from="1524278560597" duration="4679000" />
+      <workItem from="1524278560597" duration="4948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39117000" />
+    <option name="totallyTimeSpent" value="39386000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -396,13 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/jquery/plugins.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="55" column="2" lean-forward="true" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
@@ -850,15 +851,23 @@
     <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="345" column="9" lean-forward="true" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
+          <caret line="345" column="9" lean-forward="false" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+        <state relative-caret-position="-153">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/settings/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="121" column="43" lean-forward="true" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="43" />
           <folding />
         </state>
       </provider>

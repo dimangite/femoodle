@@ -113,9 +113,9 @@ if (has_capability('moodle/grade:manage', $systemcontext)
                          GRADE_AGGREGATE_MODE            =>new lang_string('aggregatemode', 'grades'),
                          GRADE_AGGREGATE_SUM             =>new lang_string('aggregatesum', 'grades'));
 
-        $defaultvisible = array(GRADE_AGGREGATE_SUM);
+        $defaultvisible = array(GRADE_AGGREGATE_WEIGHTED_MEAN);
 
-        $defaults = array('value' => GRADE_AGGREGATE_SUM, 'forced' => false, 'adv' => false);
+        $defaults = array('value' => GRADE_AGGREGATE_WEIGHTED_MEAN, 'forced' => false, 'adv' => false);
         $temp->add(new admin_setting_gradecat_combo('grade_aggregation', new lang_string('aggregation', 'grades'), new lang_string('aggregation_help', 'grades'), $defaults, $options));
 
         $temp->add(new admin_setting_configmultiselect('grade_aggregations_visible', new lang_string('aggregationsvisible', 'grades'),
