@@ -4,7 +4,6 @@
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" afterPath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
-      <change beforePath="$PROJECT_DIR$/grade/lib.php" afterPath="$PROJECT_DIR$/grade/lib.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,21 +45,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="excellib.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="345" column="9" lean-forward="true" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1304">
-              <caret line="3280" column="0" lean-forward="true" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
+            <state relative-caret-position="49005">
+              <caret line="3280" column="0" lean-forward="false" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
               <folding>
                 <marker date="1524194570137" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
                 <marker date="1524194570137" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
@@ -122,7 +131,7 @@
       <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="1890">
               <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="51" />
               <folding>
                 <marker date="1509101310000" expanded="true" signature="25523:25571" ph="UPDATE {grad... " />
@@ -209,7 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +248,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,12 +315,13 @@
       <workItem from="1522981185521" duration="3380000" />
       <workItem from="1523259162447" duration="5162000" />
       <workItem from="1524102492986" duration="4754000" />
-      <workItem from="1524187686900" duration="4514000" />
+      <workItem from="1524187686900" duration="9440000" />
+      <workItem from="1524278560597" duration="4679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29512000" />
+    <option name="totallyTimeSpent" value="39117000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -326,7 +336,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23104435" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679544" sideWeight="0.50423217" order="2" side_tool="true" content_ui="tabs" />
@@ -790,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10191">
-          <caret line="781" column="0" lean-forward="true" selection-start-line="781" selection-start-column="0" selection-end-line="781" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8145">
@@ -824,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="1890">
           <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="51" />
           <folding>
             <marker date="1509101310000" expanded="true" signature="25523:25571" ph="UPDATE {grad... " />
@@ -832,24 +834,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade/lib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1304">
-          <caret line="3280" column="0" lean-forward="true" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
+        <state relative-caret-position="49005">
+          <caret line="3280" column="0" lean-forward="false" selection-start-line="3280" selection-start-column="0" selection-end-line="3280" selection-end-column="0" />
           <folding>
             <marker date="1524194570137" expanded="true" signature="7096:7757" ph="SELECT ${$us... " />
             <marker date="1524194570137" expanded="true" signature="8373:9205" ph="SELECT g.* $... " />
             <marker date="1524194570137" expanded="true" signature="119482:119723" ph="SELECT f.* F... " />
             <marker date="1524194570137" expanded="true" signature="119482:119847" ph="SELECT f.* F... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="345" column="9" lean-forward="true" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="180" column="0" lean-forward="true" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
