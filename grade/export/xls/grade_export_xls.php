@@ -27,6 +27,7 @@ class grade_export_xls extends grade_export {
      * @param int $groupid id of selected group, 0 means all
      * @param stdClass $formdata The validated data from the grade export form.
      */
+
     public function __construct($course, $groupid, $formdata) {
         parent::__construct($course, $groupid, $formdata);
 

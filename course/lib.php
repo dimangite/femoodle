@@ -245,7 +245,7 @@ function build_mnet_logs_array($hostid, $course, $user=0, $date=0, $order="l.tim
  *   refers to the same section id (this means course_sections.sequence is more
  *   important if they are different)
  * - ($fullcheck only) each module in the course is present in one of
- *   course_sections.sequence
+             *   course_sections.sequence
  * - ($fullcheck only) removes non-existing course modules from section sequences
  *
  * If there are any mismatches, the changes are made and records are updated in DB.
@@ -864,7 +864,8 @@ function course_create_section($courseorid, $position = 0, $skipcheck = false) {
     $cw->summary  = '';
     $cw->summaryformat = FORMAT_HTML;
     $cw->sequence = '';
-    $cw->name = null;
+//    $cw->name = null;
+    $cw->name = "Week ".$position;
     $cw->visible = 1;
     $cw->availability = null;
     $cw->id = $DB->insert_record("course_sections", $cw);
@@ -2472,6 +2473,9 @@ function create_course($data, $editoroptions = NULL) {
     $data->visibleold = $data->visible;
 
     $newcourseid = $DB->insert_record('course', $data);
+    //TODO: insert grade item here after create course
+
+
     $context = context_course::instance($newcourseid, MUST_EXIST);
 
     if ($editoroptions) {

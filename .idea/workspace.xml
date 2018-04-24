@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/course/lib.php" afterPath="$PROJECT_DIR$/course/lib.php" />
       <change beforePath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" afterPath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +46,124 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
+      <file leaf-file-name="item.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grade/edit/tree/item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2195">
-              <caret line="203" column="9" lean-forward="true" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+            <state relative-caret-position="953">
+              <caret line="170" column="24" lean-forward="false" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grade_item.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/grade/grade_item.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="432" column="20" lean-forward="false" selection-start-line="432" selection-start-column="20" selection-end-line="432" selection-end-column="20" />
+              <folding>
+                <marker date="1509101310000" expanded="true" signature="22526:22682" ph="SELECT COUNT... " />
+                <marker date="1509101310000" expanded="true" signature="45630:45753" ph="UPDATE {grad... " />
+                <marker date="1509101310000" expanded="true" signature="46303:46616" ph="SELECT DISTI... " />
+                <marker date="1509101310000" expanded="true" signature="46942:47170" ph="UPDATE {grad... " />
+                <marker date="1509101310000" expanded="true" signature="57868:58122" ph="SELECT gi.id... " />
+                <marker date="1509101310000" expanded="true" signature="58144:58488" ph="SELECT gi.id... " />
+                <marker date="1509101310000" expanded="true" signature="74087:74404" ph="SELECT gg.us... " />
+                <marker date="1509101310000" expanded="true" signature="75680:75870" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="83628:83740" ph="SELECT gi.* " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-257">
+              <caret line="89" column="15" lean-forward="false" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course/lib.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="867" column="34" lean-forward="true" selection-start-line="867" selection-start-column="34" selection-end-line="867" selection-end-column="34" />
+              <folding>
+                <marker date="1524542615969" expanded="true" signature="5583:5734" ph="SELECT l.*, " />
+                <marker date="1524542615969" expanded="true" signature="7256:7298" ph="SELECT COUNT... " />
+                <marker date="1524542615969" expanded="true" signature="38148:38207" ph="SELECT max(s... course" />
+                <marker date="1524542615969" expanded="true" signature="105090:105144" ph="SELECT secti... course" />
+                <marker date="1524542615969" expanded="true" signature="106995:107050" ph="SELECT id fr... shortname" />
+                <marker date="1524542615969" expanded="true" signature="107356:107410" ph="SELECT id fr... idnumber" />
+                <marker date="1524542615969" expanded="true" signature="111381:111647" ph="SELECT COUNT... userid" />
+                <marker date="1524542615969" expanded="true" signature="111412:111640" ph="SELECT DISTI... " />
+                <marker date="1524542615969" expanded="true" signature="112341:112575" ph="SELECT COUNT... course" />
+                <marker date="1524542615969" expanded="true" signature="112372:112568" ph="SELECT cm.co... " />
+                <marker date="1524542615969" expanded="true" signature="145417:145556" ph="SELECT sorto... category" />
+                <marker date="1524542615969" expanded="true" signature="145731:145874" ph="UPDATE {cour... " />
+                <marker date="1524542615969" expanded="true" signature="146863:147031" ph="UPDATE {cour... " />
+                <marker date="1524542615969" expanded="true" signature="151053:151572" ph="SELECT cm.id... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moodle_database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dml/moodle_database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="1690" column="29" lean-forward="false" selection-start-line="1690" selection-start-column="29" selection-end-line="1690" selection-end-column="29" />
+              <folding>
+                <marker date="1509101310000" expanded="true" signature="48965:48997" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="55031:55076" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="63023:63060" ph="SELECT ${$fi... " />
+                <marker date="1509101310000" expanded="true" signature="67358:67395" ph="SELECT ${$re... " />
+                <marker date="1509101310000" expanded="true" signature="69342:69379" ph="SELECT ${$re... " />
+                <marker date="1509101310000" expanded="true" signature="77490:77530" ph="SELECT ${$co... " />
+                <marker date="1509101310000" expanded="true" signature="79796:79829" ph="SELECT 'x' F... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course/edit_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grade/edit/tree/item_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grade/edit/tree/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,6 +179,7 @@
       <find>current</find>
       <find>$current</find>
       <find>current()</find>
+      <find>course_section</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,6 +196,7 @@
         <option value="$PROJECT_DIR$/admin/settings/grades.php" />
         <option value="$PROJECT_DIR$/grade/lib.php" />
         <option value="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
+        <option value="$PROJECT_DIR$/course/lib.php" />
       </list>
     </option>
   </component>
@@ -134,18 +250,7 @@
             <path>
               <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
               <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="settings" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="grade" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="course" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -200,6 +305,10 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",Show Constants,Show Protected Members,Show Private Members,Show Includes" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -221,12 +330,13 @@
       <workItem from="1524102492986" duration="4754000" />
       <workItem from="1524187686900" duration="9440000" />
       <workItem from="1524278560597" duration="5418000" />
-      <workItem from="1524453584667" duration="352000" />
+      <workItem from="1524453584667" duration="1754000" />
+      <workItem from="1524539490657" duration="2678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40208000" />
+    <option name="totallyTimeSpent" value="44288000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -241,7 +351,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676682" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23962805" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679544" sideWeight="0.50423217" order="2" side_tool="true" content_ui="tabs" />
@@ -249,7 +359,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -301,62 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="112" column="7" lean-forward="true" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="93" column="25" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/columns1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/columns2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/layout/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="59" column="10" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/templates/overlaymenu.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/templates/overlaymenuitem.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/adaptable/templates/savediscard.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -578,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,29 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/dml/moodle_database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5041">
-          <caret line="752" column="20" lean-forward="false" selection-start-line="752" selection-start-column="20" selection-end-line="752" selection-end-column="20" />
-          <folding>
-            <marker date="1509101310000" expanded="true" signature="48965:48997" ph="SELECT ${$fi... " />
-            <marker date="1509101310000" expanded="true" signature="55031:55076" ph="SELECT ${$fi... " />
-            <marker date="1509101310000" expanded="true" signature="63023:63060" ph="SELECT ${$fi... " />
-            <marker date="1509101310000" expanded="true" signature="67358:67395" ph="SELECT ${$re... " />
-            <marker date="1509101310000" expanded="true" signature="69342:69379" ph="SELECT ${$re... " />
-            <marker date="1509101310000" expanded="true" signature="77490:77530" ph="SELECT ${$co... " />
-            <marker date="1509101310000" expanded="true" signature="79796:79829" ph="SELECT 'x' F... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
           <caret line="139" column="51" lean-forward="false" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="51" />
-          <folding>
-            <marker date="1509101310000" expanded="true" signature="25523:25571" ph="UPDATE {grad... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="345" column="9" lean-forward="false" selection-start-line="345" selection-start-column="9" selection-end-line="345" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,15 +788,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2195">
-          <caret line="203" column="9" lean-forward="true" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/edit/tree/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/edit/tree/item_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/edit_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dml/moodle_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1690" column="29" lean-forward="false" selection-start-line="1690" selection-start-column="29" selection-end-line="1690" selection-end-column="29" />
+          <folding>
+            <marker date="1509101310000" expanded="true" signature="48965:48997" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="55031:55076" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="63023:63060" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="67358:67395" ph="SELECT ${$re... " />
+            <marker date="1509101310000" expanded="true" signature="69342:69379" ph="SELECT ${$re... " />
+            <marker date="1509101310000" expanded="true" signature="77490:77530" ph="SELECT ${$co... " />
+            <marker date="1509101310000" expanded="true" signature="79796:79829" ph="SELECT 'x' F... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/grade/grade_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="432" column="20" lean-forward="false" selection-start-line="432" selection-start-column="20" selection-end-line="432" selection-end-column="20" />
+          <folding>
+            <marker date="1509101310000" expanded="true" signature="22526:22682" ph="SELECT COUNT... " />
+            <marker date="1509101310000" expanded="true" signature="45630:45753" ph="UPDATE {grad... " />
+            <marker date="1509101310000" expanded="true" signature="46303:46616" ph="SELECT DISTI... " />
+            <marker date="1509101310000" expanded="true" signature="46942:47170" ph="UPDATE {grad... " />
+            <marker date="1509101310000" expanded="true" signature="57868:58122" ph="SELECT gi.id... " />
+            <marker date="1509101310000" expanded="true" signature="58144:58488" ph="SELECT gi.id... " />
+            <marker date="1509101310000" expanded="true" signature="74087:74404" ph="SELECT gg.us... " />
+            <marker date="1509101310000" expanded="true" signature="75680:75870" ph="SELECT ${$fi... " />
+            <marker date="1509101310000" expanded="true" signature="83628:83740" ph="SELECT gi.* " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/edit/tree/item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="170" column="24" lean-forward="false" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="89" column="15" lean-forward="false" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="867" column="34" lean-forward="true" selection-start-line="867" selection-start-column="34" selection-end-line="867" selection-end-column="34" />
+          <folding>
+            <marker date="1524542615969" expanded="true" signature="5583:5734" ph="SELECT l.*, " />
+            <marker date="1524542615969" expanded="true" signature="7256:7298" ph="SELECT COUNT... " />
+            <marker date="1524542615969" expanded="true" signature="38148:38207" ph="SELECT max(s... course" />
+            <marker date="1524542615969" expanded="true" signature="105090:105144" ph="SELECT secti... course" />
+            <marker date="1524542615969" expanded="true" signature="106995:107050" ph="SELECT id fr... shortname" />
+            <marker date="1524542615969" expanded="true" signature="107356:107410" ph="SELECT id fr... idnumber" />
+            <marker date="1524542615969" expanded="true" signature="111381:111647" ph="SELECT COUNT... userid" />
+            <marker date="1524542615969" expanded="true" signature="111412:111640" ph="SELECT DISTI... " />
+            <marker date="1524542615969" expanded="true" signature="112341:112575" ph="SELECT COUNT... course" />
+            <marker date="1524542615969" expanded="true" signature="112372:112568" ph="SELECT cm.co... " />
+            <marker date="1524542615969" expanded="true" signature="145417:145556" ph="SELECT sorto... category" />
+            <marker date="1524542615969" expanded="true" signature="145731:145874" ph="UPDATE {cour... " />
+            <marker date="1524542615969" expanded="true" signature="146863:147031" ph="UPDATE {cour... " />
+            <marker date="1524542615969" expanded="true" signature="151053:151572" ph="SELECT cm.id... " />
+          </folding>
         </state>
       </provider>
     </entry>
