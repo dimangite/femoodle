@@ -174,7 +174,6 @@ if ($mform->is_cancelled()) {
         if (isset($data->parentcategory)) {
             $grade_item->set_parent($data->parentcategory, false);
         }
-
     } else {
         $grade_item->update();
 

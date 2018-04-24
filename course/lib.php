@@ -2473,7 +2473,6 @@ function create_course($data, $editoroptions = NULL) {
     $data->visibleold = $data->visible;
 
     $newcourseid = $DB->insert_record('course', $data);
-    //TODO: insert grade item here after create course
 
 
     $context = context_course::instance($newcourseid, MUST_EXIST);

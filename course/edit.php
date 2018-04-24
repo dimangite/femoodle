@@ -25,6 +25,7 @@
 require_once('../config.php');
 require_once('lib.php');
 require_once('edit_form.php');
+require_once $CFG->dirroot.'/grade/lib.php';
 
 $id = optional_param('id', 0, PARAM_INT); // Course id.
 $categoryid = optional_param('category', 0, PARAM_INT); // Course category - can be changed in edit form.
@@ -155,6 +156,8 @@ if ($editform->is_cancelled()) {
     if (empty($course->id)) {
         // In creating the course.
         $course = create_course($data, $editoroptions);
+        // TODO: create grade item here
+        create_grade_item($course->id);
 
         // Get the context of the newly created course.
         $context = context_course::instance($course->id, MUST_EXIST);
@@ -195,6 +198,46 @@ if ($editform->is_cancelled()) {
         // Save and return. Take them back to wherever.
         redirect($returnurl);
     }
+}
+
+// create default grade item
+
+function create_grade_item($courseid){
+    // create a new grade category
+    $course_category = new grade_category();
+    $course_category->insert_course_category($courseid);
+
+    $grade_item = new grade_item(array('id'=>0, 'courseid'=>$courseid));
+    $dataGradeItem = new stdClass();
+    $dataGradeItem->iteminfo = "";
+    $dataGradeItem->idnumber = "";
+    $dataGradeItem->gradetype = "1";
+    $dataGradeItem->grademax = 100.0;
+    $dataGradeItem->grademin = 0.0;
+    $dataGradeItem->gradepass = 0.0;
+    $dataGradeItem->display = "0";
+    $dataGradeItem->weightoverride = "0";
+    $dataGradeItem->aggregationcoef2 = 0;
+    $dataGradeItem->id = 0;
+    $dataGradeItem->parentcategory = $course_category->id;
+    // find course id
+    $dataGradeItem->courseid = $courseid;
+    $dataGradeItem->itemtype = "manual";
+    $dataGradeItem->submitbutton = "Save changes";
+
+
+
+    $gradeItemNames = ["Assignment", "Midterm", "Final"];
+    $weightedValue = [0.10000,0.20000,0.60000];
+    $i = 0;
+    foreach($gradeItemNames as $itemName){
+        $dataGradeItem->itemname = $itemName;
+        $dataGradeItem->aggregationcoef = $weightedValue[$i];
+        $i++;
+        grade_item::set_properties($grade_item, $dataGradeItem);
+        $grade_item->insert();
+    }
+
 }
 
 // Print the form.
