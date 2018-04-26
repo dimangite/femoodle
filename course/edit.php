@@ -207,6 +207,9 @@ function create_grade_item($courseid){
     $course_category = new grade_category();
     $course_category->insert_course_category($courseid);
 
+
+    createGradeCategory($courseid);
+
     $grade_item = new grade_item(array('id'=>0, 'courseid'=>$courseid));
     $dataGradeItem = new stdClass();
     $dataGradeItem->iteminfo = "";
@@ -223,12 +226,9 @@ function create_grade_item($courseid){
     // find course id
     $dataGradeItem->courseid = $courseid;
     $dataGradeItem->itemtype = "manual";
-    $dataGradeItem->submitbutton = "Save changes";
 
-
-
-    $gradeItemNames = ["Assignment", "Midterm", "Final"];
-    $weightedValue = [0.10000,0.20000,0.60000];
+    $gradeItemNames = ["Midterm", "Final"];
+    $weightedValue = [0.20000,0.60000];
     $i = 0;
     foreach($gradeItemNames as $itemName){
         $dataGradeItem->itemname = $itemName;
@@ -240,6 +240,39 @@ function create_grade_item($courseid){
 
 }
 
+function createGradeCategory($courseid){
+    $grade_category = new grade_category(array('courseid'=>$courseid), false);
+    $grade_category->apply_default_settings();
+    $grade_category->apply_forced_settings();
+
+
+    $dataGradeCategory = new stdClass();
+    $dataGradeCategory->fullname = 'Assignment';
+    $dataGradeCategory->aggregateonlygraded = 1;
+    $dataGradeCategory->aggregateoutcomes = 0;
+    grade_category::set_properties($grade_category, $dataGradeCategory);
+    $grade_category->insert();
+
+
+    $dataGradeItem = new stdClass();
+    $dataGradeItem->courseid = $courseid;
+    $dataGradeItem->itemname = "Assignment";
+    $dataGradeItem->itemtype = "category";
+    $dataGradeItem->iteminfo = "";
+    $dataGradeItem->idnumber = "";
+    $dataGradeItem->gradetype = "1";
+    $dataGradeItem->grademax = 100.0;
+    $dataGradeItem->grademin = 0.0;
+    $dataGradeItem->gradepass = 0.0;
+    $dataGradeItem->display = "0";
+    $dataGradeItem->weightoverride = "0";
+    $dataGradeItem->aggregationcoef2 = 0.0000;
+    $dataGradeItem->aggregationcoef = 0.10000;
+
+    $grade_item = $grade_category->load_grade_item();
+    grade_item::set_properties($grade_item, $dataGradeItem);
+    $grade_item->update();
+}
 // Print the form.
 
 $site = get_site();
