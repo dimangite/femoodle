@@ -117,7 +117,7 @@ class grade_export_xls extends grade_export {
 
         $myxls->write_string($startRow+2, 19, "10%", $formatCenter);
         $myxls->write_string($startRow+2, 20, "10%", $formatCenter);
-        $myxls->write_string($startRow+2, 21, "ពាក់កណ្តាលឆមាស 10%", $formatCenter);
+        $myxls->write_string($startRow+2, 21, "ពាក់កណ្តាលឆមាស 20%", $formatCenter);
 
         $myxls->set_column(22, 22, 15);
         $myxls->write_string($startRow, 22, $header1_str[6], $formatCenter);

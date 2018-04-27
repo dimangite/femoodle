@@ -219,10 +219,17 @@ function edit_module_post_actions($moduleinfo, $course) {
     if ($hasgrades && $grade_item = grade_item::fetch(array('itemtype'=>'mod', 'itemmodule'=>$moduleinfo->modulename,
                  'iteminstance'=>$moduleinfo->instance, 'itemnumber'=>0, 'courseid'=>$course->id))) {
         $gradeupdate = false;
+        $grade_item->aggregationcoef = 1.0;
         if ($grade_item->idnumber != $moduleinfo->cmidnumber) {
             $grade_item->idnumber = $moduleinfo->cmidnumber;
             $gradeupdate = true;
         }
+
+        if (isset($moduleinfo->aggregationcoef) && $grade_item->aggregationcoef != $moduleinfo->aggregationcoef) {
+            $grade_item->aggregationcoef = $moduleinfo->aggregationcoef;
+            $gradeupdate = true;
+        }
+
         if (isset($moduleinfo->gradepass) && $grade_item->gradepass != $moduleinfo->gradepass) {
             $grade_item->gradepass = $moduleinfo->gradepass;
             $gradeupdate = true;

@@ -26,6 +26,7 @@ require_once('../config.php');
 require_once('lib.php');
 require_once('edit_form.php');
 require_once $CFG->dirroot.'/grade/lib.php';
+require_once($CFG->dirroot . '/course/modlib.php');
 
 $id = optional_param('id', 0, PARAM_INT); // Course id.
 $categoryid = optional_param('category', 0, PARAM_INT); // Course category - can be changed in edit form.
@@ -157,7 +158,7 @@ if ($editform->is_cancelled()) {
         // In creating the course.
         $course = create_course($data, $editoroptions);
         // TODO: create grade item here
-        create_grade_item($course->id);
+        create_grade_item($course);
 
         // Get the context of the newly created course.
         $context = context_course::instance($course->id, MUST_EXIST);
@@ -200,13 +201,86 @@ if ($editform->is_cancelled()) {
     }
 }
 
+
+// create grade category for assignment
+function createGradeCategory($courseid){
+    $grade_category = new grade_category(array('courseid'=>$courseid), false);
+    $grade_category->apply_default_settings();
+    $grade_category->apply_forced_settings();
+
+
+    $dataGradeCategory = new stdClass();
+    $dataGradeCategory->fullname = 'Assignment';
+    $dataGradeCategory->aggregateonlygraded = 1;
+    $dataGradeCategory->aggregateoutcomes = 0;
+    grade_category::set_properties($grade_category, $dataGradeCategory);
+    $grade_category->insert();
+
+
+    $dataGradeItem = new stdClass();
+    $dataGradeItem->courseid = $courseid;
+    $dataGradeItem->itemname = "Assignment";
+    $dataGradeItem->itemtype = "category";
+    $dataGradeItem->iteminfo = "";
+    $dataGradeItem->idnumber = "";
+    $dataGradeItem->gradetype = "1";
+    $dataGradeItem->grademax = 10.0;
+    $dataGradeItem->grademin = 0.0;
+    $dataGradeItem->gradepass = 5.0;
+    $dataGradeItem->display = "0";
+    $dataGradeItem->weightoverride = "0";
+    $dataGradeItem->aggregationcoef2 = 0.0000;
+    $dataGradeItem->aggregationcoef = 0.10000;
+
+    $grade_item = $grade_category->load_grade_item();
+    grade_item::set_properties($grade_item, $dataGradeItem);
+    $grade_item->update();
+}
+
+// auto create attendance
+function createAttendance($course){
+
+    $fromform = new stdClass();
+    $fromform->name = "Attendance";
+    $fromform->grade = 10;
+    $fromform->gradecat = 11;
+    $fromform->visible = 1;
+    $fromform->visibleoncoursepage = 1;
+    $fromform->cmidnumber = "";
+    $fromform->groupmode = "0";
+    $fromform->groupingid = "0";
+    $fromform->availabilityconditionsjson = "";
+    $fromform->completionunlocked = 1;
+    $fromform->completion = "1";
+    $fromform->completionexpected = 0;
+    $fromform->tags ="";
+    $fromform->course =$course->id;
+    $fromform->coursemodule = 0;
+    $fromform->section = 0;
+    $fromform->module = 3;
+    $fromform->modulename = "attendance";
+    $fromform->instance = 0;
+    $fromform->aggregationcoef = 0.10000;
+    $fromform->gradepass = 5.0;
+    $fromform->add = "attendance";
+    $fromform->update = 0;
+    $fromform->return = 0;
+    $fromform->sr = 0;
+    $fromform->competency_rule = "0";
+    $fromform->subnet = "";
+
+    add_moduleinfo($fromform, $course, null);
+}
+
 // create default grade item
 
-function create_grade_item($courseid){
+function create_grade_item($course){
+    $courseid = $course->id;
     // create a new grade category
     $course_category = new grade_category();
     $course_category->insert_course_category($courseid);
 
+    createAttendance($course);
 
     createGradeCategory($courseid);
 
@@ -242,39 +316,6 @@ function create_grade_item($courseid){
 
 }
 
-function createGradeCategory($courseid){
-    $grade_category = new grade_category(array('courseid'=>$courseid), false);
-    $grade_category->apply_default_settings();
-    $grade_category->apply_forced_settings();
-
-
-    $dataGradeCategory = new stdClass();
-    $dataGradeCategory->fullname = 'Assignment';
-    $dataGradeCategory->aggregateonlygraded = 1;
-    $dataGradeCategory->aggregateoutcomes = 0;
-    grade_category::set_properties($grade_category, $dataGradeCategory);
-    $grade_category->insert();
-
-
-    $dataGradeItem = new stdClass();
-    $dataGradeItem->courseid = $courseid;
-    $dataGradeItem->itemname = "Assignment";
-    $dataGradeItem->itemtype = "category";
-    $dataGradeItem->iteminfo = "";
-    $dataGradeItem->idnumber = "";
-    $dataGradeItem->gradetype = "1";
-    $dataGradeItem->grademax = 10.0;
-    $dataGradeItem->grademin = 0.0;
-    $dataGradeItem->gradepass = 5.0;
-    $dataGradeItem->display = "0";
-    $dataGradeItem->weightoverride = "0";
-    $dataGradeItem->aggregationcoef2 = 0.0000;
-    $dataGradeItem->aggregationcoef = 0.10000;
-
-    $grade_item = $grade_category->load_grade_item();
-    grade_item::set_properties($grade_item, $dataGradeItem);
-    $grade_item->update();
-}
 // Print the form.
 
 $site = get_site();
