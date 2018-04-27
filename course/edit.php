@@ -215,9 +215,7 @@ function create_grade_item($courseid){
     $dataGradeItem->iteminfo = "";
     $dataGradeItem->idnumber = "";
     $dataGradeItem->gradetype = "1";
-    $dataGradeItem->grademax = 100.0;
     $dataGradeItem->grademin = 0.0;
-    $dataGradeItem->gradepass = 0.0;
     $dataGradeItem->display = "0";
     $dataGradeItem->weightoverride = "0";
     $dataGradeItem->aggregationcoef2 = 0;
@@ -229,10 +227,14 @@ function create_grade_item($courseid){
 
     $gradeItemNames = ["Midterm", "Final"];
     $weightedValue = [0.20000,0.60000];
+    $maxGrade = [20.0, 60.0];
+    $gradePass = [10.0, 30.0];
     $i = 0;
     foreach($gradeItemNames as $itemName){
         $dataGradeItem->itemname = $itemName;
         $dataGradeItem->aggregationcoef = $weightedValue[$i];
+        $dataGradeItem->grademax = $maxGrade[$i];
+        $dataGradeItem->gradepass = $gradePass[$i];
         $i++;
         grade_item::set_properties($grade_item, $dataGradeItem);
         $grade_item->insert();
@@ -261,9 +263,9 @@ function createGradeCategory($courseid){
     $dataGradeItem->iteminfo = "";
     $dataGradeItem->idnumber = "";
     $dataGradeItem->gradetype = "1";
-    $dataGradeItem->grademax = 100.0;
+    $dataGradeItem->grademax = 10.0;
     $dataGradeItem->grademin = 0.0;
-    $dataGradeItem->gradepass = 0.0;
+    $dataGradeItem->gradepass = 5.0;
     $dataGradeItem->display = "0";
     $dataGradeItem->weightoverride = "0";
     $dataGradeItem->aggregationcoef2 = 0.0000;

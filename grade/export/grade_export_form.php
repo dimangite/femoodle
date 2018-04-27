@@ -59,7 +59,6 @@ class grade_export_form extends moodleform {
                 if ($grade_item->is_hidden() && !$canviewhidden) {
                     continue;
                 }
-
                 if (!empty($features['idnumberrequired']) and empty($grade_item->idnumber)) {
                     $mform->addElement('checkbox', 'itemids['.$grade_item->id.']', $grade_item->get_name(), get_string('noidnumber', 'grades'));
                     $mform->hardFreeze('itemids['.$grade_item->id.']');
