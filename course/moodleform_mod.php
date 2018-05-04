@@ -816,6 +816,7 @@ abstract class moodleform_mod extends moodleform {
 
             if (!$this->_features->rating || $this->_features->gradecat) {
                 $mform->addElement('header', 'modstandardgrade', get_string('grade'));
+                $mform->setExpanded('modstandardgrade', true);
             }
 
             //if supports grades and grades arent being handled via ratings

@@ -920,7 +920,7 @@ function grade_get_categories_menu($courseid, $includenew=false) {
     }
     core_collator::asort($cats);
 
-    return ($result+$cats);
+    return ($cats+ $result);
 }
 
 /**

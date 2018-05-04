@@ -79,6 +79,38 @@ class mod_quiz_mod_form extends moodleform_mod {
         // Introduction.
         $this->standard_intro_elements(get_string('introduction', 'quiz'));
 
+        // Grade settings.
+        $this->standard_grading_coursemodule_elements();
+
+        $mform->removeElement('grade');
+        if (property_exists($this->current, 'grade')) {
+            $currentgrade = $this->current->grade;
+        } else {
+            $currentgrade = $quizconfig->maximumgrade;
+        }
+        $mform->addElement('hidden', 'grade', $currentgrade);
+        $mform->setType('grade', PARAM_FLOAT);
+
+        // Number of attempts.
+        $attemptoptions = array('0' => get_string('unlimited'));
+        for ($i = 1; $i <= QUIZ_MAX_ATTEMPT_OPTION; $i++) {
+            $attemptoptions[$i] = $i;
+        }
+        $mform->addElement('select', 'attempts', get_string('attemptsallowed', 'quiz'),
+            $attemptoptions);
+        $mform->setAdvanced('attempts', $quizconfig->attempts_adv);
+        $mform->setDefault('attempts', $quizconfig->attempts);
+
+        // Grading method.
+        $mform->addElement('select', 'grademethod', get_string('grademethod', 'quiz'),
+            quiz_get_grading_options());
+        $mform->addHelpButton('grademethod', 'grademethod', 'quiz');
+        $mform->setAdvanced('grademethod', $quizconfig->grademethod_adv);
+        $mform->setDefault('grademethod', $quizconfig->grademethod);
+        if ($this->get_max_attempts_for_any_override() < 2) {
+            $mform->disabledIf('grademethod', 'attempts', 'eq', 1);
+        }
+
         // -------------------------------------------------------------------------------
         $mform->addElement('header', 'timing', get_string('timing', 'quiz'));
 
@@ -114,39 +146,9 @@ class mod_quiz_mod_form extends moodleform_mod {
         $mform->setAdvanced('graceperiod', $quizconfig->graceperiod_adv);
         $mform->setDefault('graceperiod', $quizconfig->graceperiod);
         $mform->disabledIf('graceperiod', 'overduehandling', 'neq', 'graceperiod');
-
+        $mform->setExpanded('timing');
         // -------------------------------------------------------------------------------
-        // Grade settings.
-        $this->standard_grading_coursemodule_elements();
 
-        $mform->removeElement('grade');
-        if (property_exists($this->current, 'grade')) {
-            $currentgrade = $this->current->grade;
-        } else {
-            $currentgrade = $quizconfig->maximumgrade;
-        }
-        $mform->addElement('hidden', 'grade', $currentgrade);
-        $mform->setType('grade', PARAM_FLOAT);
-
-        // Number of attempts.
-        $attemptoptions = array('0' => get_string('unlimited'));
-        for ($i = 1; $i <= QUIZ_MAX_ATTEMPT_OPTION; $i++) {
-            $attemptoptions[$i] = $i;
-        }
-        $mform->addElement('select', 'attempts', get_string('attemptsallowed', 'quiz'),
-                $attemptoptions);
-        $mform->setAdvanced('attempts', $quizconfig->attempts_adv);
-        $mform->setDefault('attempts', $quizconfig->attempts);
-
-        // Grading method.
-        $mform->addElement('select', 'grademethod', get_string('grademethod', 'quiz'),
-                quiz_get_grading_options());
-        $mform->addHelpButton('grademethod', 'grademethod', 'quiz');
-        $mform->setAdvanced('grademethod', $quizconfig->grademethod_adv);
-        $mform->setDefault('grademethod', $quizconfig->grademethod);
-        if ($this->get_max_attempts_for_any_override() < 2) {
-            $mform->disabledIf('grademethod', 'attempts', 'eq', 1);
-        }
 
         // -------------------------------------------------------------------------------
         $mform->addElement('header', 'layouthdr', get_string('layout', 'quiz'));

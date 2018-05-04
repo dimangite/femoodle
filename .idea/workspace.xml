@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mod/url/mod_form.php" afterPath="$PROJECT_DIR$/mod/url/mod_form.php" />
+      <change beforePath="$PROJECT_DIR$/course/moodleform_mod.php" afterPath="$PROJECT_DIR$/course/moodleform_mod.php" />
+      <change beforePath="$PROJECT_DIR$/lib/gradelib.php" afterPath="$PROJECT_DIR$/lib/gradelib.php" />
+      <change beforePath="$PROJECT_DIR$/mod/assign/locallib.php" afterPath="$PROJECT_DIR$/mod/assign/locallib.php" />
+      <change beforePath="$PROJECT_DIR$/mod/assign/mod_form.php" afterPath="$PROJECT_DIR$/mod/assign/mod_form.php" />
+      <change beforePath="$PROJECT_DIR$/mod/lesson/mod_form.php" afterPath="$PROJECT_DIR$/mod/lesson/mod_form.php" />
+      <change beforePath="$PROJECT_DIR$/mod/quiz/mod_form.php" afterPath="$PROJECT_DIR$/mod/quiz/mod_form.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,31 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course/edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3390">
-              <caret line="239" column="25" lean-forward="false" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mod/resource/mod_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1132">
+            <state relative-caret-position="1905">
               <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mod/url/mod_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,32 +63,120 @@
       <file leaf-file-name="moodleform_mod.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course/moodleform_mod.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="560" column="0" lean-forward="false" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
+            <state relative-caret-position="484">
+              <caret line="819" column="13" lean-forward="false" selection-start-line="819" selection-start-column="13" selection-end-line="819" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontend.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/availability/classes/frontend.php">
+      <file leaf-file-name="gradelib.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gradelib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="101" column="71" lean-forward="false" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/pear/HTML/QuickForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="626" column="9" lean-forward="false" selection-start-line="626" selection-start-column="9" selection-end-line="626" selection-end-column="9" />
+            <state relative-caret-position="641">
+              <caret line="922" column="26" lean-forward="false" selection-start-line="922" selection-start-column="26" selection-end-line="922" selection-end-column="26" />
               <folding>
-                <marker date="1509101310000" expanded="true" signature="8660:8689" ph="..." />
-                <marker date="1509101310000" expanded="true" signature="8712:8726" ph="..." />
+                <marker date="1525400507534" expanded="true" signature="7647:7707" ph="SELECT * FRO... itemid" />
+                <marker date="1525400507534" expanded="true" signature="7745:7793" ph="SELECT * FRO... itemid" />
+                <marker date="1525400507534" expanded="true" signature="39972:40145" ph="SELECT gg.id... " />
+                <marker date="1525400507534" expanded="true" signature="40543:41664" ph="SELECT h.id,... " />
+                <marker date="1525400507534" expanded="true" signature="50700:50949" ph="SELECT a.*, " />
+                <marker date="1525400507534" expanded="true" signature="51679:51928" ph="SELECT a.*, " />
+                <marker date="1525400507534" expanded="true" signature="56533:56625" ph="SELECT * FRO... itemtype" />
+                <marker date="1525400507534" expanded="true" signature="58000:58249" ph="SELECT i.* F... " />
+                <marker date="1525400507534" expanded="true" signature="58688:58977" ph="SELECT ${$fi... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod/assignment/mod_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod/assign/mod_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locallib.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod/assign/locallib.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="1415" column="7" lean-forward="false" selection-start-line="1415" selection-start-column="7" selection-end-line="1415" selection-end-column="7" />
+              <folding>
+                <marker date="1525401727375" expanded="true" signature="35587:35700" ph="SELECT * FRO... groupid" />
+                <marker date="1525401727375" expanded="true" signature="40682:40868" ph="UPDATE {assi... " />
+                <marker date="1525401727375" expanded="true" signature="40966:41101" ph="UPDATE {assi... " />
+                <marker date="1525401727375" expanded="true" signature="41199:41342" ph="UPDATE {assi... " />
+                <marker date="1525401727375" expanded="true" signature="73929:74192" ph="SELECT ${$fi... " />
+                <marker date="1525401727375" expanded="true" signature="79200:79919" ph="SELECT COUNT... " />
+                <marker date="1525401727375" expanded="true" signature="80476:80650" ph="SELECT COUNT... " />
+                <marker date="1525401727375" expanded="true" signature="81421:81702" ph="SELECT COUNT... " />
+                <marker date="1525401727375" expanded="true" signature="82214:82501" ph="SELECT COUNT... " />
+                <marker date="1525401727375" expanded="true" signature="84579:85004" ph="SELECT COUNT... " />
+                <marker date="1525401727375" expanded="true" signature="85084:85470" ph="SELECT COUNT... " />
+                <marker date="1525401727375" expanded="true" signature="87794:88834" ph="SELECT g.id " />
+                <marker date="1525401727375" expanded="true" signature="95071:95321" ph="SELECT id FR... allowsubmissionsfromdate" />
+                <marker date="1525401727375" expanded="true" signature="262533:262714" ph="SELECT s.use... " />
+                <marker date="1525401727375" expanded="true" signature="262734:263336" ph="SELECT u.id " />
+                <marker date="1525401727375" expanded="true" signature="346135:347100" ph="SELECT u.id " />
+                <marker date="1525401727375" expanded="true" signature="373100:373325" ph="SELECT o.id,... " />
+                <marker date="1525401727375" expanded="true" signature="373445:373767" ph="SELECT o.id,... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod/lesson/mod_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="707">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mod/quiz/mod_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="148" column="38" lean-forward="false" selection-start-line="148" selection-start-column="38" selection-end-line="148" selection-end-column="38" />
+              <folding>
+                <marker date="1525402507638" expanded="true" signature="31853:31995" ph="SELECT MAX(C... quiz" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submission_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mod/assign/submission_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,9 +218,14 @@
         <option value="$PROJECT_DIR$/course/modlib.php" />
         <option value="$PROJECT_DIR$/course/modedit.php" />
         <option value="$PROJECT_DIR$/course/edit.php" />
-        <option value="$PROJECT_DIR$/course/moodleform_mod.php" />
         <option value="$PROJECT_DIR$/mod/resource/mod_form.php" />
         <option value="$PROJECT_DIR$/mod/url/mod_form.php" />
+        <option value="$PROJECT_DIR$/lib/gradelib.php" />
+        <option value="$PROJECT_DIR$/course/moodleform_mod.php" />
+        <option value="$PROJECT_DIR$/mod/assign/mod_form.php" />
+        <option value="$PROJECT_DIR$/mod/assign/locallib.php" />
+        <option value="$PROJECT_DIR$/mod/lesson/mod_form.php" />
+        <option value="$PROJECT_DIR$/mod/quiz/mod_form.php" />
       </list>
     </option>
   </component>
@@ -191,6 +269,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,14 +287,12 @@
               <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
               <item name="moodle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="mod" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="url" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="quiz" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,12 +371,13 @@
       <workItem from="1524733526876" duration="3924000" />
       <workItem from="1524792885215" duration="9617000" />
       <workItem from="1525229774195" duration="1571000" />
-      <workItem from="1525316980478" duration="5672000" />
+      <workItem from="1525316980478" duration="5737000" />
+      <workItem from="1525399532963" duration="2245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74336000" />
+    <option name="totallyTimeSpent" value="76646000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -313,16 +392,17 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679544" sideWeight="0.50423217" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108727" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679544" sideWeight="0.50423217" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -368,67 +448,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/settings/block_settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/settings/block_regions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/style/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/style/extras.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/style/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/style/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/style/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/adaptable/style/adaptable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25845">
-          <caret line="1723" column="0" lean-forward="false" selection-start-line="1723" selection-start-column="0" selection-end-line="1723" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/adaptable/settings/colors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
@@ -809,7 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pear/HTML/QuickForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="9390">
           <caret line="626" column="9" lean-forward="false" selection-start-line="626" selection-start-column="9" selection-end-line="626" selection-end-column="9" />
           <folding>
             <marker date="1509101310000" expanded="true" signature="8660:8689" ph="..." />
@@ -820,33 +844,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/availability/classes/frontend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
+        <state relative-caret-position="1320">
           <caret line="101" column="71" lean-forward="false" selection-start-line="101" selection-start-column="71" selection-end-line="101" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course/moodleform_mod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="560" column="0" lean-forward="false" selection-start-line="560" selection-start-column="0" selection-end-line="560" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod/resource/mod_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mod/url/mod_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="1290">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/resource/mod_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/assign/submission_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/assignment/mod_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gradelib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="922" column="26" lean-forward="false" selection-start-line="922" selection-start-column="26" selection-end-line="922" selection-end-column="26" />
+          <folding>
+            <marker date="1525400507534" expanded="true" signature="7647:7707" ph="SELECT * FRO... itemid" />
+            <marker date="1525400507534" expanded="true" signature="7745:7793" ph="SELECT * FRO... itemid" />
+            <marker date="1525400507534" expanded="true" signature="39972:40145" ph="SELECT gg.id... " />
+            <marker date="1525400507534" expanded="true" signature="40543:41664" ph="SELECT h.id,... " />
+            <marker date="1525400507534" expanded="true" signature="50700:50949" ph="SELECT a.*, " />
+            <marker date="1525400507534" expanded="true" signature="51679:51928" ph="SELECT a.*, " />
+            <marker date="1525400507534" expanded="true" signature="56533:56625" ph="SELECT * FRO... itemtype" />
+            <marker date="1525400507534" expanded="true" signature="58000:58249" ph="SELECT i.* F... " />
+            <marker date="1525400507534" expanded="true" signature="58688:58977" ph="SELECT ${$fi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/moodleform_mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="819" column="13" lean-forward="false" selection-start-line="819" selection-start-column="13" selection-end-line="819" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/assign/mod_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="106" column="38" lean-forward="false" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/assign/locallib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="1415" column="7" lean-forward="false" selection-start-line="1415" selection-start-column="7" selection-end-line="1415" selection-end-column="7" />
+          <folding>
+            <marker date="1525401727375" expanded="true" signature="35587:35700" ph="SELECT * FRO... groupid" />
+            <marker date="1525401727375" expanded="true" signature="40682:40868" ph="UPDATE {assi... " />
+            <marker date="1525401727375" expanded="true" signature="40966:41101" ph="UPDATE {assi... " />
+            <marker date="1525401727375" expanded="true" signature="41199:41342" ph="UPDATE {assi... " />
+            <marker date="1525401727375" expanded="true" signature="73929:74192" ph="SELECT ${$fi... " />
+            <marker date="1525401727375" expanded="true" signature="79200:79919" ph="SELECT COUNT... " />
+            <marker date="1525401727375" expanded="true" signature="80476:80650" ph="SELECT COUNT... " />
+            <marker date="1525401727375" expanded="true" signature="81421:81702" ph="SELECT COUNT... " />
+            <marker date="1525401727375" expanded="true" signature="82214:82501" ph="SELECT COUNT... " />
+            <marker date="1525401727375" expanded="true" signature="84579:85004" ph="SELECT COUNT... " />
+            <marker date="1525401727375" expanded="true" signature="85084:85470" ph="SELECT COUNT... " />
+            <marker date="1525401727375" expanded="true" signature="87794:88834" ph="SELECT g.id " />
+            <marker date="1525401727375" expanded="true" signature="95071:95321" ph="SELECT id FR... allowsubmissionsfromdate" />
+            <marker date="1525401727375" expanded="true" signature="262533:262714" ph="SELECT s.use... " />
+            <marker date="1525401727375" expanded="true" signature="262734:263336" ph="SELECT u.id " />
+            <marker date="1525401727375" expanded="true" signature="346135:347100" ph="SELECT u.id " />
+            <marker date="1525401727375" expanded="true" signature="373100:373325" ph="SELECT o.id,... " />
+            <marker date="1525401727375" expanded="true" signature="373445:373767" ph="SELECT o.id,... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/lesson/mod_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod/quiz/mod_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="148" column="38" lean-forward="false" selection-start-line="148" selection-start-column="38" selection-end-line="148" selection-end-column="38" />
+          <folding>
+            <marker date="1525402507638" expanded="true" signature="31853:31995" ph="SELECT MAX(C... quiz" />
+          </folding>
         </state>
       </provider>
     </entry>

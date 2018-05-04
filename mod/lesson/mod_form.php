@@ -97,6 +97,10 @@ class mod_lesson_mod_form extends moodleform_mod {
         $mform->addRule('name', get_string('maximumchars', '', 255), 'maxlength', 255, 'client');
         $this->standard_intro_elements();
 
+
+        // Grade.
+        $this->standard_grading_coursemodule_elements();
+
         // Appearance.
         $mform->addElement('header', 'appearancehdr', get_string('appearance'));
 
@@ -305,8 +309,7 @@ class mod_lesson_mod_form extends moodleform_mod {
         $mform->setDefault('maxpages', $lessonconfig->numberofpagestoshow);
         $mform->setAdvanced('maxpages', $lessonconfig->numberofpagestoshow_adv);
 
-        // Grade.
-        $this->standard_grading_coursemodule_elements();
+
 
         // No header here, so that the following settings are displayed in the grade section.
 

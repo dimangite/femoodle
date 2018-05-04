@@ -1410,7 +1410,7 @@ class assign {
             $this->add_plugin_settings($plugin, $mform, $feedbackpluginsenabled);
         }
         $group->setElements($feedbackpluginsenabled);
-        $mform->setExpanded('submissiontypes');
+//        $mform->setExpanded('submissiontypes');
     }
 
     /**
