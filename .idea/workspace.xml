@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" beforeDir="false" afterPath="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/adaptable/settings/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/theme/adaptable/settings/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php" beforeDir="false" afterPath="$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,16 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grade_export_txt.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/txt/grade_export_txt.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="export.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/txt/export.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1740">
@@ -106,9 +94,29 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="grade_export_fexls.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="grade_export_fexls.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="100" column="162" selection-start-line="100" selection-start-column="162" selection-end-line="100" selection-end-column="162" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excellib.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-477">
+              <caret line="460" column="20" selection-start-line="460" selection-start-column="20" selection-end-line="460" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grade/lib.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-43640" />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="grade_exported.php" pinned="false" current-in-tab="false">
@@ -169,6 +177,7 @@
         <option value="$PROJECT_DIR$/theme/adaptable/settings/header.php" />
         <option value="$PROJECT_DIR$/grade/export/fexls/export.php" />
         <option value="$PROJECT_DIR$/grade/export/xls/grade_export_xls.php" />
+        <option value="$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php" />
       </list>
     </option>
   </component>
@@ -231,13 +240,6 @@
               <item name="grade" type="462c0819:PsiDirectoryNode" />
               <item name="export" type="462c0819:PsiDirectoryNode" />
               <item name="fexls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moodle" type="462c0819:PsiDirectoryNode" />
-              <item name="grade" type="462c0819:PsiDirectoryNode" />
-              <item name="export" type="462c0819:PsiDirectoryNode" />
-              <item name="xls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,12 +325,12 @@
       <workItem from="1525420327926" duration="1195000" />
       <workItem from="1525743383025" duration="1974000" />
       <workItem from="1525839920477" duration="579000" />
-      <workItem from="1525919239808" duration="1394000" />
+      <workItem from="1525919239808" duration="8436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82005000" />
+    <option name="totallyTimeSpent" value="89047000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -345,10 +347,10 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32889965" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32889965" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32775453" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3272727" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49576783" visible="true" weight="0.21816881" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" sideWeight="0.50423217" side_tool="true" weight="0.25679544" />
@@ -404,13 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/formslib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9300">
-          <caret line="633" column="5" selection-start-line="633" selection-start-column="5" selection-end-line="633" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/grade/grade_object.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4440">
@@ -623,11 +618,6 @@
     <entry file="file://$PROJECT_DIR$/grade/export/checklist/columns.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/grade/lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5118" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/txt/version.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -638,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/fexls/classes/event/grade_exported.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/grade_export_form.php">
@@ -678,6 +665,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43640" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/excellib.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="460" column="20" selection-start-line="460" selection-start-column="20" selection-end-line="460" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="100" column="162" selection-start-line="100" selection-start-column="162" selection-end-line="100" selection-end-column="162" />
         </state>
       </provider>
     </entry>
