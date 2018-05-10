@@ -57,7 +57,7 @@ defined('MOODLE_INTERNAL') || die;
         'box' => get_string('displayloginbox', 'theme_adaptable'),
         'no' => get_string('displayloginno', 'theme_adaptable')
     );
-    $setting = new admin_setting_configselect($name, $title, $description, 'button', $choices);
+    $setting = new admin_setting_configselect($name, $title, $description, 'box', $choices);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
