@@ -55,7 +55,7 @@ defined('MOODLE_INTERNAL') || die;
     $title = get_string('blockheaderbackgroundcolor', 'theme_adaptable');
     $description = get_string('blockheaderbackgroundcolordesc', 'theme_adaptable');
     $previewconfig = null;
-    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#FFFFFF', $previewconfig);
+    $setting = new admin_setting_configcolourpicker($name, $title, $description, '#F0F3FE', $previewconfig);
     $setting->set_updatedcallback('theme_reset_all_caches');
     $temp->add($setting);
 
