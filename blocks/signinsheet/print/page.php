@@ -32,7 +32,7 @@ $PAGE->set_pagelayout('base');
 $PAGE->set_url('/blocks/signinsheet/print/page.php');
 $logoEnabled = get_config('block_signinsheet', 'customlogoenabled');
 
-echo $OUTPUT->header();
+//echo $OUTPUT->header();
 
 if($logoEnabled){
 	printHeaderLogo();
@@ -63,5 +63,5 @@ if(isset($rendertype)){
 
 ?>
 
-<script>window.print();</script> 
+<script>window.print();</script>
 
