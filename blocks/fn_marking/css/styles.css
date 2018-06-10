@@ -1,0 +1,49 @@
+.markingmanagercontainer-footer {
+    background-color: #dfdfdf;
+    color: #494949;
+    margin: 50px auto 0;
+    overflow: hidden;
+    padding: 5px 20px;
+}
+.markingmanagercontainer-footer .markingmanager-version {
+    color: black;
+}
+.markingmanagercontainer-footer > div {
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 26px;
+}
+.markingmanagercontainer-footer-left {
+    float: left;
+    width: 33.3%;
+}
+.markingmanagercontainer-footer-center {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.markingmanagercontainer-footer-right {
+    float: right;
+    width: 33.3%;
+    text-align: right;
+}
+.markingmanagercontainer-footer-title {
+    color: black;
+}
+a.markingmanagercontainer-footer-link {
+    color: #0000EE;
+}
+#page-blocks-fn_marking-fn_gradebook .ned-hide-blocks {
+    margin-left: 5px;
+}
+.zoomin #block-region-side-post, .zoomin #block-region-side-pre {
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden;
+    margin-left: 0;
+    display: none;
+}
+.zoomin #region-main {
+    width: 100% !important;
+    margin-left: 0px;
+}
