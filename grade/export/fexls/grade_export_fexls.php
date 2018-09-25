@@ -57,9 +57,9 @@ class grade_export_fexls extends grade_export {
         $myxls = $workbook->add_worksheet($strgrades);
 
         // add Header of grading
-
+        $fullname = format_string($this->course->fullname, true, array('context' => context_course::instance($this->course->id)));
         // add format of cell
-        $header_str = ["ព្រះរាជាណាចក្រកម្ពុជា", "ជាតិ        សាសនា         ព្រះមហាក្សត្រ","ក្រសួងអប់រំ យុវជន និងកីឡា" , "សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ", "តារាងសម្រង់វត្តមាន និង​វាយតំលៃបញ្ចប់ឆមាសទី២ របស់និស្សិត​ឆ្នាំទី៣( ឆ្នាំសិក្សា ២០១៧ - ២០១៨)", "មហាវិទ្យាល៍យវិស្វកម្មឯកទេស   វិស្វកម្មបច្ចេវិទ្យាពត៍មាន (អាហារូបករណ៍)   Group A  មុខវិជ្ជា:", ""];
+        $header_str = ["ព្រះរាជាណាចក្រកម្ពុជា", "ជាតិ        សាសនា         ព្រះមហាក្សត្រ","", "តារាងសម្រង់វត្តមាន និង​វាយតំលៃបញ្ចប់ឆមាសទី   របស់និស្សិត​ឆ្នាំទី៣( ឆ្នាំសិក្សា ២០១   - ២០១   )", "មហាវិទ្យាល៍យ     វិស្វកម្ម        ឯកទេស   វិស្វកម្ម.....................................)   Group ......  មុខវិជ្ជា: $fullname", ""];
         $formatCenter = $workbook->add_format();
         $formatCenter->set_h_align('center');
         $formatCenter->set_v_align('center');
@@ -67,12 +67,20 @@ class grade_export_fexls extends grade_export {
         $num = 0;
         foreach($header_str as $item){
             $myxls->set_row($num, 17, $formatCenter);
-            $myxls->merge_cells($num, 0, $num, 24);
-            $myxls->write_string($num, 0, $item);
+            $myxls->merge_cells($num, 03, $num, 24);
+            $myxls->write_string($num, 03, $item);
             $num++;
         }
 
-        $startRow = 7;
+        $leftFormat = $workbook->add_format();
+        $leftFormat->set_h_align('left');
+        $myxls->merge_cells(01, 00, 01, 02);
+        $myxls->merge_cells(02, 00, 2, 02);
+        $myxls->merge_cells(3, 00, 3, 02);
+        $myxls->write_string(1, 0, "ក្រសួងអប់រំ យុវជន និងកីឡា", $leftFormat);
+        $myxls->write_string(2, 0, "សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ", $leftFormat);
+
+        $startRow = 6;
         // Print names of all the fields
 //        $profilefields = grade_helper::get_user_profile_fields($this->course->id, $this->usercustomfields);
 
@@ -82,12 +90,12 @@ class grade_export_fexls extends grade_export {
 //        }
 
 
-        $myxls->merge_cells(7, 0, 9, 0);
-        $myxls->merge_cells(7, 1, 9, 1);
-        $myxls->merge_cells(7, 2, 9, 2);
-        $myxls->merge_cells(7, 3, 9, 3);
-        $myxls->merge_cells(7, 4, 8, 19);
-        $myxls->merge_cells(7, 19, 7, 21);
+        $myxls->merge_cells($startRow, 0, $startRow+2 , 0);
+        $myxls->merge_cells($startRow, 1, $startRow+2 , 1);
+        $myxls->merge_cells($startRow, 2, $startRow+2 , 2);
+        $myxls->merge_cells($startRow, 3, $startRow+2 , 3);
+        $myxls->merge_cells($startRow, 4, $startRow+1, 18);
+        $myxls->merge_cells($startRow, 19, $startRow, 21);
 
 
         $header1_str = ["ល.រ", "គោត្តនាម", "នាម", "ភេទ", "វត្តមាន និងអវត្តមាន", "វាយតម្លៃក្នុងថ្នាក់​ ៤០%=៤/១០", "ពិន្ទុកប្រឡងឆមាស", "ពិន្ទុកសរុបរួម", "ផ្សេងៗ"];
@@ -103,9 +111,11 @@ class grade_export_fexls extends grade_export {
 
         $myxls->write_string($startRow, 4, $header1_str[4], $formatCenter);
         $myxls->set_column(4, 18, 3);
+
         for($i=1 ; $i<16; $i++){
             $myxls->write_string($startRow+2, 3+$i, $i , $formatCenter);
         }
+
         $myxls->write_string($startRow, 19, $header1_str[5], $formatCenter);
 
         $myxls->set_column(19, 19, 10);
@@ -204,18 +214,29 @@ class grade_export_fexls extends grade_export {
 //            $myxls->write_string($i, $j++, time());
         }
 
-        $footerStr = ["កំណត់ចំណាំ:សាស្រ្តាចារ្យបង្រៀនទាំងអស់ត្រូវប្រគល់បញ្ជីវត្តមានដល់ការិយាល័យសិក្សាជារៀងរាល់ចុងខែ ។                                            រាជធានីភ្នំពេញ ថ្ងៃទី",
-            "រាជធានីភ្នំពេញ ថ្ងៃទី                                                                                                      ​​​​​​​​​​​​​​​​​​​​​​​​​​                           សាស្រ្តាចារ្យ",
-            "ប្រធានការិយាល័យសិក្សា",
-            "វេង ឆាង"
-            ];
-        $row = $i+1;
-        foreach ($footerStr as $item){
-            $myxls->set_row($row, 17, $formatCenter);
-            $myxls->merge_cells($row, 0, $row, 24);
-            $myxls->write_string($row, 0, $item);
-            $row++;
-        }
+        $footerStr = ["កំណត់ចំណាំ: ","សាស្រ្តាចារ្យ​​  បង្រៀនទាំងអស់ត្រូវប្រគល់បញ្ជីវត្តមានដល់ការិយាល័យសិក្សាជារៀងរាល់ចុងខែ ។","រាជធានីភ្នំពេញ ថ្ងៃទី",
+            "រាជធានីភ្នំពេញ ថ្ងៃទី  ","សាស្រ្តាចារ្យ", "ប្រធានការិយាល័យសិក្សា"];
+        $row = $i+2;
+        $myxls->merge_cells($row, 2, $row, 18);
+        $myxls->merge_cells($row, 19, $row, 24);
+        $myxls->merge_cells($row+1, 14, $row+1, 18);
+        $myxls->merge_cells($row+1, 19, $row+1, 24);
+        $myxls->merge_cells($row+2, 0, $row+2, 24);
+
+
+        $boldFormat = $workbook->add_format();
+        $boldFormat->set_v_align('left');
+        $boldFormat->set_bold(1);
+
+
+        $myxls->write_string($row, 1, $footerStr[0], $boldFormat);
+        $myxls->write_string($row, 2, $footerStr[1], $leftFormat);
+        $myxls->write_string($row, 19, $footerStr[2], $formatCenter);
+        $myxls->write_string($row+1, 14, $footerStr[3], $leftFormat);
+        $formatCenter->set_bold(1);
+        $myxls->write_string($row+1, 19, $footerStr[4], $formatCenter);
+        $myxls->write_string($row+2, 0, $footerStr[5], $formatCenter);
+
         $gui->close();
         $geub->close();
 

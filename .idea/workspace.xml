@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b202284-0738-4ace-88f0-fd84691f3960" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php" beforeDir="false" afterPath="$PROJECT_DIR$/grade/export/fexls/grade_export_fexls.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,28 +45,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grade_export_ods.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/ods/grade_export_ods.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="52" column="41" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/txt/version.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="grade_export_txt.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/txt/grade_export_txt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="645">
               <caret line="56" column="42" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="42" />
             </state>
           </provider>
@@ -83,31 +66,53 @@
       <file leaf-file-name="grade_export_xls.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="570">
               <caret line="51" column="43" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grade/export/xml/version.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="grade_export_xml.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/xml/grade_export_xml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="615">
               <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="version.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blocks/attendance/version.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course/edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="271" column="12" lean-forward="true" selection-start-line="271" selection-start-column="12" selection-end-line="271" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modlib.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course/modlib.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -115,7 +120,7 @@
       <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5747">
+            <state relative-caret-position="10230">
               <caret line="695" selection-start-line="695" selection-end-line="695" />
             </state>
           </provider>
@@ -150,7 +155,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="46b2f5bddcd6c30cf61bc766c5036caecfad269d" />
+        <entry key="$PROJECT_DIR$" value="2ddf070c0e7b8da4b50e773eefc9a7766fa3ea38" />
       </map>
     </option>
   </component>
@@ -192,10 +197,10 @@
         <option value="$PROJECT_DIR$/theme/adaptable/settings/block_settings.php" />
         <option value="$PROJECT_DIR$/course/index.php" />
         <option value="$PROJECT_DIR$/blocks/signinsheet/print/page.php" />
-        <option value="$PROJECT_DIR$/course/edit.php" />
         <option value="$PROJECT_DIR$/blocks/signinsheet/genlist/show.php" />
         <option value="$PROJECT_DIR$/blocks/signinsheet/genlist/rendersigninsheet.php" />
         <option value="$PROJECT_DIR$/grade/export/txt/version.php" />
+        <option value="$PROJECT_DIR$/course/edit.php" />
       </list>
     </option>
   </component>
@@ -238,6 +243,11 @@
               <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
               <item name="moodle" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="moodle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moodle" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,7 +272,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -332,11 +342,13 @@
       <workItem from="1528518027678" duration="769000" />
       <workItem from="1528618136622" duration="1892000" />
       <workItem from="1528682783657" duration="3916000" />
+      <workItem from="1531439198936" duration="24000" />
+      <workItem from="1532014749064" duration="824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107322000" />
+    <option name="totallyTimeSpent" value="108346000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -349,14 +361,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32889965" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32889965" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3272727" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49576783" visible="true" weight="0.21745351" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32711443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49576783" visible="true" weight="0.22366522" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" sideWeight="0.50423217" side_tool="true" weight="0.25679544" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
@@ -411,6 +424,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grade/export/xml/grade_export_xml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/fe_xls/db/access.php" />
     <entry file="file://$PROJECT_DIR$/grade/export/fe_xls/classes/event/grade_exported.php" />
     <entry file="file://$PROJECT_DIR$/grade/export/fe_xls/grade_export_fe_xls.php" />
@@ -511,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="1438" column="5" selection-start-line="1438" selection-start-column="5" selection-end-line="1438" selection-end-column="5" />
-          <folding>
-            <element signature="e#56#62#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,16 +573,6 @@
     <entry file="file://$PROJECT_DIR$/blocks/signinsheet/print/page.php" />
     <entry file="file://$PROJECT_DIR$/blocks/signinsheet/genlist/show.php" />
     <entry file="file://$PROJECT_DIR$/blocks/signinsheet/genlist/rendersigninsheet.php" />
-    <entry file="file://$PROJECT_DIR$/course/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="174" column="19" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/ods/lang/en/gradeexport_ods.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/ods/tests/logging_test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-350" />
@@ -589,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#57#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,9 +605,6 @@
           <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/ods/db/access.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/ods/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -616,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <element signature="e#7#58#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,29 +624,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#7#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5747">
-          <caret line="695" selection-start-line="695" selection-end-line="695" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/ods/version.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/ods/grade_export_ods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="585">
           <caret line="52" column="41" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="41" />
         </state>
       </provider>
@@ -662,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/txt/grade_export_txt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="645">
           <caret line="56" column="42" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="42" />
         </state>
       </provider>
@@ -676,25 +657,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/xls/grade_export_xls.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="570">
           <caret line="51" column="43" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grade/export/xml/version.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade/export/xml/grade_export_xml.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="615">
           <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/export/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10230">
+          <caret line="695" selection-start-line="695" selection-end-line="695" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grade/export/ods/version.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blocks/attendance/version.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="271" column="12" lean-forward="true" selection-start-line="271" selection-start-column="12" selection-end-line="271" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/modlib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
